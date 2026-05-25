@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egbert Aung Kyaing Tan Trust Scholarship</title>
+  <meta name="description" content="Supporting Burmese students of Buddhist descent pursuing higher education in the United States.">
+  <meta property="og:title" content="Egbert Aung Kyaing Tan Trust Scholarship">
+  <meta property="og:description" content="Empowering Burmese Scholars to Flourish in America">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Myanmar:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">
+        <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M20 8 C20 8, 28 14, 28 20 C28 26, 20 32, 20 32 C20 32, 12 26, 12 20 C12 14, 20 8, 20 8Z" fill="currentColor" opacity="0.3"/>
+          <path d="M20 12 C20 12, 26 16, 26 20 C26 24, 20 28, 20 28 C20 28, 14 24, 14 20 C14 16, 20 12, 20 12Z" fill="currentColor" opacity="0.5"/>
+          <circle cx="20" cy="20" r="3" fill="currentColor"/>
+        </svg>
+        <span class="nav__logo-text">EAKT</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#mission" data-i18n="nav.mission">Mission</a></li>
+        <li><a href="#founder" data-i18n="nav.founder">Founder</a></li>
+        <li><a href="#scholarship" data-i18n="nav.scholarship">Scholarship</a></li>
+        <li><a href="#support" data-i18n="nav.support">Support</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li>
+          <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+            <span class="lang-toggle__label">EN</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <svg class="hero__lotus" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M100 20 C100 20, 140 60, 140 100 C140 140, 100 180, 100 180 C100 180, 60 140, 60 100 C60 60, 100 20, 100 20Z" fill="currentColor" opacity="0.06"/>
+        <path d="M100 40 C100 40, 130 70, 130 100 C130 130, 100 160, 100 160 C100 160, 70 130, 70 100 C70 70, 100 40, 100 40Z" fill="currentColor" opacity="0.04"/>
+        <path d="M60 80 C60 80, 80 60, 100 60 C120 60, 140 80, 140 80" stroke="currentColor" stroke-width="0.5" opacity="0.08"/>
+        <path d="M50 100 C50 100, 75 75, 100 75 C125 75, 150 100, 150 100" stroke="currentColor" stroke-width="0.5" opacity="0.08"/>
+      </svg>
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title">
+        <span class="hero__title-line" data-i18n="hero.title">Egbert Aung Kyaing Tan</span>
+        <span class="hero__title-sub" data-i18n="hero.subtitle">Trust Scholarship</span>
+      </h1>
+      <p class="hero__tagline" data-i18n="hero.tagline">Empowering Burmese Scholars to Flourish in America</p>
+      <div class="hero__actions">
+        <a href="#mission" class="btn btn--primary" data-i18n="hero.cta_primary">Learn More</a>
+        <a href="#scholarship" class="btn btn--outline" data-i18n="hero.cta_secondary">Apply Now</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="section mission" id="mission">
+    <div class="container">
+      <h2 class="section__title" data-i18n="mission.heading">Our Mission</h2>
+      <div class="mission__grid">
+        <div class="mission__text">
+          <p data-i18n="mission.body">The Egbert Aung Kyaing Tan Trust Scholarship exists to support Burmese students of Buddhist descent pursuing higher education in the United States.</p>
+          <blockquote class="mission__quote">
+            <p data-i18n="mission.quote">"The gift of Dhamma excels all gifts."</p>
+            <cite data-i18n="mission.quote_source">— Dhammapada 354</cite>
+          </blockquote>
+        </div>
+        <div class="mission__icons">
+          <div class="mission__icon-card" data-i18n-group="mission.icons.0">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="12" width="32" height="24" rx="2"/>
+              <path d="M8 20h32M16 12V8h16v4"/>
+              <circle cx="24" cy="28" r="3"/>
+            </svg>
+            <h3 data-i18n="mission.icons.0.label">Education</h3>
+            <p data-i18n="mission.icons.0.text">Supporting academic excellence</p>
+          </div>
+          <div class="mission__icon-card" data-i18n-group="mission.icons.1">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M24 8 C24 8, 36 18, 36 28 C36 38, 24 44, 24 44 C24 44, 12 38, 12 28 C12 18, 24 8, 24 8Z"/>
+              <path d="M24 16 C24 16, 30 22, 30 28 C30 34, 24 38, 24 38 C24 38, 18 34, 18 28 C18 22, 24 16, 24 16Z" opacity="0.5"/>
+            </svg>
+            <h3 data-i18n="mission.icons.1.label">Compassion</h3>
+            <p data-i18n="mission.icons.1.text">Rooted in Buddhist values</p>
+          </div>
+          <div class="mission__icon-card" data-i18n-group="mission.icons.2">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="16" r="6"/>
+              <circle cx="12" cy="32" r="5"/>
+              <circle cx="36" cy="32" r="5"/>
+              <path d="M18 20l-4 8M30 20l4 8M17 32h14"/>
+            </svg>
+            <h3 data-i18n="mission.icons.2.label">Community</h3>
+            <p data-i18n="mission.icons.2.text">Building bridges across cultures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="section founder" id="founder">
+    <div class="container">
+      <h2 class="section__title" data-i18n="founder.heading">Dr. Egbert Aung Kyaing Tan</h2>
+      <p class="founder__role" data-i18n="founder.role">Founder · Psychiatrist · Philanthropist</p>
+      <div class="founder__grid">
+        <div class="founder__photo">
+          <div class="founder__photo-frame">
+            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="200" height="200" rx="100" fill="var(--gold)" opacity="0.1"/>
+              <text x="100" y="108" text-anchor="middle" fill="var(--gold)" font-size="48" font-family="serif">E</text>
+            </svg>
+          </div>
+        </div>
+        <div class="founder__bio">
+          <p data-i18n="founder.bio.0">Born in Myanmar, Dr. Tan emigrated to the United States to pursue medicine.</p>
+          <p data-i18n="founder.bio.1">Over 30 years, he has served communities across New York, Wisconsin, California, and Pennsylvania.</p>
+          <p data-i18n="founder.bio.2">His journey from Burma to American psychiatry is the foundation of this scholarship.</p>
+          <div class="founder__credentials">
+            <span data-i18n="founder.credentials.0">Montefiore Hospital</span>
+            <span data-i18n="founder.credentials.1">Albert Einstein Medical School</span>
+            <span data-i18n="founder.credentials.2">University of Minnesota</span>
+            <span data-i18n="founder.credentials.3">University of New Haven</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHOLARSHIP -->
+  <section class="section scholarship" id="scholarship">
+    <div class="container">
+      <h2 class="section__title" data-i18n="scholarship.heading">The Scholarship</h2>
+      <div class="scholarship__cards">
+        <div class="card">
+          <h3 data-i18n="scholarship.eligibility.title">Eligibility</h3>
+          <ul data-i18n-list="scholarship.eligibility.items">
+            <li>Of Burmese descent</li>
+            <li>Buddhist background or values</li>
+            <li>Admitted to a US college or university</li>
+            <li>Demonstrated financial need</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 data-i18n="scholarship.award.title">Award Details</h3>
+          <ul data-i18n-list="scholarship.award.items">
+            <li>Amount: Determined annually</li>
+            <li>Duration: Per academic year</li>
+            <li>Covers: Tuition, living expenses, books</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 data-i18n="scholarship.process.title">How to Apply</h3>
+          <ol class="process-steps" data-i18n-steps="scholarship.process.steps">
+            <li><span class="step-num">1</span> <span>Check eligibility requirements</span></li>
+            <li><span class="step-num">2</span> <span>Prepare required documents</span></li>
+            <li><span class="step-num">3</span> <span>Submit your application</span></li>
+            <li><span class="step-num">4</span> <span>Interview with the committee</span></li>
+            <li><span class="step-num">5</span> <span>Award notification</span></li>
+          </ol>
+        </div>
+      </div>
+      <p class="scholarship__deadline" data-i18n="scholarship.deadline">Applications are reviewed on a rolling basis.</p>
+
+      <!-- FAQ -->
+      <div class="faq">
+        <h3 class="faq__title" data-i18n="scholarship.faq.title">Frequently Asked Questions</h3>
+        <div class="faq__list" data-i18n-faq="scholarship.faq.items">
+          <details class="faq__item">
+            <summary>Who can apply?</summary>
+            <p>Any student of Burmese descent who has been admitted to a US college or university and demonstrates financial need.</p>
+          </details>
+          <details class="faq__item">
+            <summary>How much is the scholarship?</summary>
+            <p>The award amount is determined annually based on available funds and the number of qualified applicants.</p>
+          </details>
+          <details class="faq__item">
+            <summary>When is the deadline?</summary>
+            <p>Applications are reviewed on a rolling basis. Early submission is encouraged.</p>
+          </details>
+          <details class="faq__item">
+            <summary>What documents do I need?</summary>
+            <p>Proof of Burmese heritage, university admission letter, financial need statement, and two letters of recommendation.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Can I reapply if not selected?</summary>
+            <p>Yes. Students may reapply in subsequent years.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <section class="section support" id="support">
+    <div class="container">
+      <h2 class="section__title" data-i18n="support.heading">Support the Trust</h2>
+      <p class="support__body" data-i18n="support.body">Your generosity helps Burmese students access education in America.</p>
+      <div class="support__cards">
+        <div class="card card--accent">
+          <h3 data-i18n="support.cards.0.title">Donate</h3>
+          <p data-i18n="support.cards.0.text">Make a tax-deductible contribution to fund scholarships.</p>
+          <a href="#contact" class="btn btn--primary btn--sm" data-i18n="support.cards.0.button">Donate Now</a>
+        </div>
+        <div class="card card--accent">
+          <h3 data-i18n="support.cards.1.title">Spread the Word</h3>
+          <p data-i18n="support.cards.1.text">Share this scholarship with students who may benefit.</p>
+          <button class="btn btn--outline btn--sm" data-i18n="support.cards.1.button" onclick="navigator.share?.({title:document.title,url:location.href})||alert(location.href)">Share</button>
+        </div>
+        <div class="card card--accent">
+          <h3 data-i18n="support.cards.2.title">Volunteer</h3>
+          <p data-i18n="support.cards.2.text">Mentor a student or help review applications.</p>
+          <a href="#contact" class="btn btn--outline btn--sm" data-i18n="support.cards.2.button">Join Us</a>
+        </div>
+      </div>
+      <div class="support__stats">
+        <div class="stat" data-counter="0">
+          <span class="stat__value">0</span>
+          <span class="stat__label" data-i18n="support.stats.0.label">Students Supported</span>
+        </div>
+        <div class="stat" data-counter="0">
+          <span class="stat__value">$0</span>
+          <span class="stat__label" data-i18n="support.stats.1.label">Dollars Awarded</span>
+        </div>
+        <div class="stat" data-counter="30">
+          <span class="stat__value">30+</span>
+          <span class="stat__label" data-i18n="support.stats.2.label">Years of Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section__title" data-i18n="contact.heading">Get in Touch</h2>
+      <p class="contact__body" data-i18n="contact.body">Have questions about the scholarship? Want to get involved?</p>
+      <div class="contact__grid">
+        <form class="contact__form" id="contactForm" action="mailto:contact@eakt-scholarship.org" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input type="text" name="name" required data-i18n-placeholder="contact.form.name" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" required data-i18n-placeholder="contact.form.email" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <select name="subject" data-i18n-select="contact.form.subject_options">
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Applicant Question">Applicant Question</option>
+              <option value="Donor Information">Donor Information</option>
+              <option value="Volunteer">Volunteer</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" required data-i18n-placeholder="contact.form.message" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary" data-i18n="contact.form.submit">Send Message</button>
+        </form>
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+            <span data-i18n="contact.info.email">Contact via form above</span>
+          </div>
+          <div class="contact__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            <span data-i18n="contact.info.location">Green Bay, Wisconsin</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M20 8 C20 8, 28 14, 28 20 C28 26, 20 32, 20 32 C20 32, 12 26, 12 20 C12 14, 20 8, 20 8Z" fill="currentColor" opacity="0.3"/>
+            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+          </svg>
+          <span data-i18n="footer.text">Egbert Aung Kyaing Tan Trust Scholarship</span>
+        </div>
+        <blockquote class="footer__quote">
+          <p data-i18n="footer.quote">"Education is the most powerful weapon which you can use to change the world."</p>
+          <cite data-i18n="footer.quote_source">— Nelson Mandela</cite>
+        </blockquote>
+        <p class="footer__copy">&copy; <span id="year"></span> Egbert Aung Kyaing Tan Trust. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

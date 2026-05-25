@@ -1,0 +1,260 @@
+{
+  "en": {
+    "nav": {
+      "mission": "Mission",
+      "founder": "Founder",
+      "scholarship": "Scholarship",
+      "support": "Support",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Egbert Aung Kyaing Tan",
+      "subtitle": "Trust Scholarship",
+      "tagline": "Empowering Burmese Scholars to Flourish in America",
+      "cta_primary": "Learn More",
+      "cta_secondary": "Apply Now"
+    },
+    "mission": {
+      "heading": "Our Mission",
+      "body": "The Egbert Aung Kyaing Tan Trust Scholarship exists to support Burmese students of Buddhist descent pursuing higher education in the United States. Founded by Dr. Egbert Aung Kyaing Tan — a psychiatrist who emigrated from Myanmar and built a 30-year career in American medicine — the trust reflects his belief that education transforms lives across generations.",
+      "quote": "The gift of Dhamma excels all gifts.",
+      "quote_source": "— Dhammapada 354",
+      "icons": [
+        { "label": "Education", "text": "Supporting academic excellence" },
+        { "label": "Compassion", "text": "Rooted in Buddhist values" },
+        { "label": "Community", "text": "Building bridges across cultures" }
+      ]
+    },
+    "founder": {
+      "heading": "Dr. Egbert Aung Kyaing Tan",
+      "role": "Founder · Psychiatrist · Philanthropist",
+      "bio": [
+        "Born in Myanmar, Dr. Tan emigrated to the United States to pursue medicine. He completed his psychiatry residency at Montefiore Hospital in the Bronx and a fellowship in Biological Psychiatry at Albert Einstein Medical School.",
+        "Over 30 years, he has served communities across New York, Wisconsin, California, and Pennsylvania — including work with the Oneida Nation and Brown County Community Treatment Center. He also holds an MBA from the University of New Haven.",
+        "His journey from Burma to American psychiatry is the foundation of this scholarship — a testament to what becomes possible when talent meets opportunity."
+      ],
+      "credentials": [
+        "Montefiore Hospital",
+        "Albert Einstein Medical School",
+        "University of Minnesota",
+        "University of New Haven"
+      ]
+    },
+    "scholarship": {
+      "heading": "The Scholarship",
+      "eligibility": {
+        "title": "Eligibility",
+        "items": [
+          "Of Burmese descent",
+          "Buddhist background or values",
+          "Admitted to a US college or university",
+          "Demonstrated financial need"
+        ]
+      },
+      "award": {
+        "title": "Award Details",
+        "items": [
+          "Amount: Determined annually",
+          "Duration: Per academic year",
+          "Covers: Tuition, living expenses, books"
+        ]
+      },
+      "process": {
+        "title": "How to Apply",
+        "steps": [
+          { "num": "1", "text": "Check eligibility requirements" },
+          { "num": "2", "text": "Prepare required documents" },
+          { "num": "3", "text": "Submit your application" },
+          { "num": "4", "text": "Interview with the committee" },
+          { "num": "5", "text": "Award notification" }
+        ]
+      },
+      "deadline": "Applications are reviewed on a rolling basis.",
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Who can apply?", "a": "Any student of Burmese descent who has been admitted to a US college or university and demonstrates financial need." },
+          { "q": "How much is the scholarship?", "a": "The award amount is determined annually based on available funds and the number of qualified applicants." },
+          { "q": "When is the deadline?", "a": "Applications are reviewed on a rolling basis. Early submission is encouraged." },
+          { "q": "What documents do I need?", "a": "Proof of Burmese heritage, university admission letter, financial need statement, and two letters of recommendation." },
+          { "q": "Can I reapply if not selected?", "a": "Yes. Students may reapply in subsequent years." }
+        ]
+      }
+    },
+    "support": {
+      "heading": "Support the Trust",
+      "body": "Your generosity helps Burmese students access education in America. Every contribution makes a difference.",
+      "cards": [
+        {
+          "title": "Donate",
+          "text": "Make a tax-deductible contribution to fund scholarships.",
+          "button": "Donate Now"
+        },
+        {
+          "title": "Spread the Word",
+          "text": "Share this scholarship with students who may benefit.",
+          "button": "Share"
+        },
+        {
+          "title": "Volunteer",
+          "text": "Mentor a student or help review applications.",
+          "button": "Join Us"
+        }
+      ],
+      "stats": [
+        { "value": "0", "label": "Students Supported" },
+        { "value": "0", "label": "Dollars Awarded" },
+        { "value": "30+", "label": "Years of Service" }
+      ]
+    },
+    "contact": {
+      "heading": "Get in Touch",
+      "body": "Have questions about the scholarship? Want to get involved? Reach out to us.",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "subject_options": ["General Inquiry", "Applicant Question", "Donor Information", "Volunteer"],
+        "message": "Your Message",
+        "submit": "Send Message"
+      },
+      "info": {
+        "email": "Contact via form above",
+        "location": "Green Bay, Wisconsin"
+      }
+    },
+    "footer": {
+      "text": "Egbert Aung Kyaing Tan Trust Scholarship",
+      "quote": "Education is the most powerful weapon which you can use to change the world.",
+      "quote_source": "— Nelson Mandela"
+    }
+  },
+  "my": {
+    "nav": {
+      "mission": "မစ်ရှင်",
+      "founder": "တည်ထောင်သူ",
+      "scholarship": "ပညာသင်ဆု",
+      "support": "ပံ့ပိုးကူညီရန်",
+      "contact": "ဆက်သွယ်ရန်"
+    },
+    "hero": {
+      "title": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန်",
+      "subtitle": "ထရတ်စတ်ပညာသင်ဆု",
+      "tagline": "အမေရိကန်၌ မြန်မာကျောင်းသားများ ထွန်းလင်းတောက်ပစေရန်",
+      "cta_primary": "ဆက်လက်ဖတ်ရှုရန်",
+      "cta_secondary": "လျှောက်ထားရန်"
+    },
+    "mission": {
+      "heading": "ကျွန်ုပ်တို့၏ မစ်ရှင်",
+      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုသည် အမေရိကန်ပြည်ထောင်စု၌ အဆင့်မြင့်ပညာကို ဆက်လက်သင်ကြားလိုသော ဗုဒ္ဓဘာသာဝင် မြန်မာကျောင်းသားများကို ပံ့ပိုးပေးရန် ရပ်တည်ပါသည်။ မြန်မာနိုင်ငံမှ ပြောင်းရွှေ့လာပြီး အမေရိကန်ဆေးပညာတွင် နှစ် ၃၀ ကျော် အသက်မွေးဝမ်းကြောင်းပြုခဲ့သော စိတ်ပညာရှင် ဒေါက်တာအက်ဂ်ဘတ်အောင်ကျိုင်းတန် တည်ထောင်ခဲ့သော ဤယုံကြည်မှုသည် ပညာရေးသည် မျိုးဆက်များတစ်လျှောက် ဘဝကို ပြောင်းလဲစေသည်ဟူသော သူ၏ယုံကြည်ချက်ကို ထင်ဟပ်ပါသည်။",
+      "quote": "ဓမ္မဒါနသည် ဒါနအလုံးစုံတို့၌ အထူးဆုံးဖြစ်သည်။",
+      "quote_source": "— ဓမ္မပဒ ၃၅၄",
+      "icons": [
+        { "label": "ပညာရေး", "text": "ပညာရေးထူးချွန်မှုကို ပံ့ပိုးခြင်း" },
+        { "label": "ကရုဏာ", "text": "ဗုဒ္ဓဘာသာတန်ဖိုးများအပေါ် အခြေခံခြင်း" },
+        { "label": "အသိုင်းအဝိုင်း", "text": "ယဉ်ကျေးမှုများကြား တံတားတည်ဆောက်ခြင်း" }
+      ]
+    },
+    "founder": {
+      "heading": "ဒေါက်တာအက်ဂ်ဘတ်အောင်ကျိုင်းတန်",
+      "role": "တည်ထောင်သူ · စိတ်ပညာရှင် · ပရဟိတသမား",
+      "bio": [
+        "မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့ပြီး ဒေါက်တာတန်သည် ဆေးပညာကို ဆက်လက်လေ့လာရန် အမေရိကန်ပြည်ထောင်စုသို့ ပြောင်းရွှေ့လာခဲ့ပါသည်။ ဘရွန်ဇ်ရှိ Montefiore ဆေးရုံတွင် စိတ်ပညာအထူးပြုလေ့ကျင့်မှုနှင့် Albert Einstein ဆေးပညာကျောင်းတွင် ဇီဝစိတ်ပညာဆိုင်ရာ အထူးပြုလေ့ကျင့်မှုကို ပြီးဆုံးခဲ့ပါသည်။",
+        "နှစ် ၃၀ ကျော်ကာလအတွင်း နယူးယောက်၊ ဝစ္စကွန်ဆင်၊ ကယ်လီဖိုးနီးယားနှင့် ပင်ဆယ်ဗေးနီးယားရှိ အသိုင်းအဝိုင်းများကို ဝတ်ပြုခဲ့ပြီး Oneida Nation နှင့် Brown County Community Treatment Center တို့တွင် အလုပ်လုပ်ခဲ့ပါသည်။ University of New Haven မှ MBA ဘွဲ့ကိုလည်း ရရှိခဲ့ပါသည်။",
+        "ဗမာနိုင်ငံမှ အမေရိကန်စိတ်ပညာရှင်အဖြစ်သို့ သူ၏ခရီးသည် ဤပညာသင်ဆု၏ အခြေခံဖြစ်ပါသည် — ထက်မြက်သော ပါရမီသည် အခွင့်အရေးနှင့် ဆုံတွေ့သောအခါ ဘာဖြစ်နိုင်သည်ကို သက်သေပြခြင်းဖြစ်ပါသည်။"
+      ],
+      "credentials": [
+        "Montefiore ဆေးရုံ",
+        "Albert Einstein ဆေးပညာကျောင်း",
+        "မင်နီဆိုတာတက္ကသိုလ်",
+        "နယူးဟိဗင်တက္ကသိုလ်"
+      ]
+    },
+    "scholarship": {
+      "heading": "ပညာသင်ဆု",
+      "eligibility": {
+        "title": "လျှောက်ထားနိုင်သူများ",
+        "items": [
+          "မြန်မာအမျိုးအနွယ်",
+          "ဗုဒ္ဓဘာသာဝင် သို့မဟုတ် ဗုဒ္ဓဘာသာတန်ဖိုးများ",
+          "အမေရိကန်တက္ကသိုလ်တစ်ခုသို့ ဝင်ခွင့်ရရှိပြီးသူ",
+          "ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသူ"
+        ]
+      },
+      "award": {
+        "title": "ဆုကြေးအသေးစိတ်",
+        "items": [
+          "ပမာဏ — နှစ်စဉ်သတ်မှတ်",
+          "ကာလ — ပညာသင်နှစ်အလိုက်",
+          "ဖုံးလွှမ်းမှု — ကျောင်းလခ၊ နေထိုင်စရိတ်၊ စာအုပ်စရိတ်"
+        ]
+      },
+      "process": {
+        "title": "လျှောက်ထားပုံ",
+        "steps": [
+          { "num": "၁", "text": "လျှောက်ထားနိုင်သူ အရည်အချင်းများကို စစ်ဆေးပါ" },
+          { "num": "၂", "text": "လိုအပ်သော စာရွက်စာတမ်းများ ပြင်ဆင်ပါ" },
+          { "num": "၃", "text": "လျှောက်လွှာတင်သွင်းပါ" },
+          { "num": "၄", "text": "ကော်မတီနှင့် အင်တာဗျူး" },
+          { "num": "၅", "text": "ဆုကြေးကြေညာချက်" }
+        ]
+      },
+      "deadline": "လျှောက်လွှာများကို အဆက်မပြတ် စစ်ဆေးပါသည်။",
+      "faq": {
+        "title": "မေးလေ့ရှိသော မေးခွန်းများ",
+        "items": [
+          { "q": "ဘယ်သူလျှောက်ထားနိုင်လဲ?", "a": "အမေရိကန်တက္ကသိုလ်တစ်ခုသို့ ဝင်ခွင့်ရရှိပြီး ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသော မြန်မာအမျိုးအနွယ် ကျောင်းသားတိုင်း လျှောက်ထားနိုင်ပါသည်။" },
+          { "q": "ပညာသင်ဆု ပမာဏ ဘယ်လောက်လဲ?", "a": "ဆုကြေးပမာဏကို ရရှိနိုင်သော ရန်ပုံငွေနှင့် အရည်အချင်းပြည့်မီသော လျှောက်ထားသူ အရေအတွက်ပေါ်မူတည်၍ နှစ်စဉ်သတ်မှတ်ပါသည်။" },
+          { "q": "နောက်ဆုံးရက် ဘယ်တော့လဲ?", "a": "လျှောက်လွှာများကို အဆက်မပြတ် စစ်ဆေးပါသည်။ စောစောတင်သွင်းရန် အကြံပြုပါသည်။" },
+          { "q": "ဘယ်စာရွက်စာတမ်းတွေ လိုအပ်လဲ?", "a": "မြန်မာအမျိုးအနွယ် သက်သေ၊ တက္ကသိုလ်ဝင်ခွင့်စာ၊ ငွေကြေးလိုအပ်ချက် ထုတ်ပြန်ချက်နှင့် အကြံပြုစာ နှစ်စောင်။" },
+          { "q": "ရွေးချယ်မခံရပါက ပြန်လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ နောက်နှစ်များတွင် ပြန်လည်လျှောက်ထားနိုင်ပါသည်။" }
+        ]
+      }
+    },
+    "support": {
+      "heading": "ထရတ်စတ်ကို ပံ့ပိုးကူညီပါ",
+      "body": "သင်၏ ရက်ရောမှုသည် မြန်မာကျောင်းသားများ အမေရိကန်၌ ပညာသင်ကြားနိုင်ရန် ကူညီပါသည်။ လှူဒါန်းမှုတိုင်းသည် အရေးပါပါသည်။",
+      "cards": [
+        {
+          "title": "လှူဒါန်းရန်",
+          "text": "ပညာသင်ဆုရန်ပုံငွေအတွက် အခွန်လျှော့ချခွင့်ရ လှူဒါန်းမှုပြုလုပ်ပါ။",
+          "button": "ယခုလှူဒါန်းပါ"
+        },
+        {
+          "title": "သတင်းပျံ့နှံ့စေရန်",
+          "text": "ဤပညာသင်ဆုကို အကျိုးခံစားနိုင်သော ကျောင်းသားများထံ မျှဝေပါ။",
+          "button": "မျှဝေရန်"
+        },
+        {
+          "title": "စေတနာ့ဝန်ထမ်း",
+          "text": "ကျောင်းသားတစ်ဦးကို အကြံပေးပါ သို့မဟုတ် လျှောက်လွှာများ စစ်ဆေးရာတွင် ကူညီပါ။",
+          "button": "ပါဝင်ပါ"
+        }
+      ],
+      "stats": [
+        { "value": "0", "label": "ပံ့ပိုးပေးခဲ့သော ကျောင်းသားများ" },
+        { "value": "0", "label": "ချီးမြှင့်ခဲ့သော ဒေါ်လာပမာဏ" },
+        { "value": "၃၀+", "label": "နှစ်ပေါင်းများစွာ ဝတ်ပြုမှု" }
+      ]
+    },
+    "contact": {
+      "heading": "ဆက်သွယ်ရန်",
+      "body": "ပညာသင်ဆုအကြောင်း မေးခွန်းရှိပါသလား? ပါဝင်လိုပါသလား? ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။",
+      "form": {
+        "name": "သင်၏အမည်",
+        "email": "သင်၏အီးမေးလ်",
+        "subject_options": ["ယေဘုယျမေးခွန်း", "လျှောက်ထားသူ မေးခွန်း", "လှူဒါန်းသူ အချက်အလက်", "စေတနာ့ဝန်ထမ်း"],
+        "message": "သင်၏အကြောင်းအရာ",
+        "submit": "စာပို့ရန်"
+      },
+      "info": {
+        "email": "အထက်ပါဖောင်မှတစ်ဆင့် ဆက်သွယ်ပါ",
+        "location": "ဂရင်းဘေး၊ ဝစ္စကွန်ဆင်"
+      }
+    },
+    "footer": {
+      "text": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆု",
+      "quote": "ပညာရေးသည် ကမ္ဘာကိုပြောင်းလဲရန် သင်သုံးနိုင်သော အစွမ်းထက်ဆုံးသော လက်နက်ဖြစ်သည်။",
+      "quote_source": "— နယ်လ်ဆင်မန်ဒဲလား"
+    }
+  }
+}
