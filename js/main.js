@@ -28,6 +28,7 @@
     setupLangToggle();
     setupScrollAnimations();
     setupCounters();
+    setupForms();
     setFooterYear();
   }
 
@@ -223,6 +224,39 @@
   function setFooterYear() {
     const el = document.getElementById('year');
     if (el) el.textContent = new Date().getFullYear();
+  }
+
+  // --- FORMS ---
+  function setupForms() {
+    // Apply form
+    const applyForm = document.getElementById('applyForm');
+    const applySuccess = document.getElementById('applySuccess');
+    if (applyForm && applySuccess) {
+      applyForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fd = new FormData(applyForm);
+        const data = Object.fromEntries(fd.entries());
+        console.log('Application submitted:', data);
+        applyForm.style.display = 'none';
+        applySuccess.style.display = 'block';
+        applySuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    }
+
+    // Contact form
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fd = new FormData(contactForm);
+        const data = Object.fromEntries(fd.entries());
+        console.log('Contact form submitted:', data);
+        alert(currentLang === 'my'
+          ? 'ကျေးဇူးတင်ပါသည်။ မကြာမီ ဆက်သွယ်ပါမည်။'
+          : 'Thank you. We will be in touch soon.');
+        contactForm.reset();
+      });
+    }
   }
 
   // --- GO ---

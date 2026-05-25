@@ -353,57 +353,111 @@ input, select, textarea { font: inherit; }
   margin-top: 2px;
 }
 
-/* --- FOUNDER --- */
-.founder {
+/* --- STORY --- */
+.story {
   background: var(--ivory);
 }
-.founder__role {
-  text-align: center;
-  color: var(--gold-dark);
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: -8px;
-  margin-bottom: 48px;
-}
-.founder__grid {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 48px;
-  align-items: start;
-}
-.founder__photo-frame {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  border: 3px solid var(--gold);
-  overflow: hidden;
+.story__content {
+  max-width: 700px;
   margin: 0 auto;
-  box-shadow: 0 0 0 8px rgba(197, 165, 90, 0.1);
+  margin-top: 40px;
 }
-.founder__photo-frame svg {
-  width: 100%;
-  height: 100%;
-}
-.founder__bio p {
-  font-size: 1.05rem;
-  line-height: 1.8;
+.story__content p {
+  font-size: 1.1rem;
+  line-height: 1.9;
   color: var(--charcoal-light);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
-.founder__credentials {
+.story__content p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- APPLY --- */
+.apply {
+  background: var(--ivory-warm);
+}
+.apply__body {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--charcoal-light);
+  margin-top: -8px;
+  margin-bottom: 40px;
+}
+.apply__form {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 24px;
+  flex-direction: column;
+  gap: 20px;
 }
-.founder__credentials span {
-  padding: 6px 16px;
+.apply__form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.apply__form .form-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 6px;
+}
+.apply__form input,
+.apply__form select,
+.apply__form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid rgba(197, 165, 90, 0.25);
+  border-radius: var(--radius-sm);
   background: var(--white);
-  border: 1px solid var(--gold-light);
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--gold-dark);
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+.apply__form input:focus,
+.apply__form select:focus,
+.apply__form textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(197, 165, 90, 0.1);
+}
+.apply__form textarea {
+  resize: vertical;
+}
+.apply__form .form-group--checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.apply__form .form-group--checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--jade);
+}
+.apply__form .btn[type="submit"] {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+.apply__success {
+  text-align: center;
+  padding: 48px 24px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.apply__success svg {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+}
+.apply__success h3 {
+  font-size: 1.4rem;
+  color: var(--jade-dark);
+  margin-bottom: 8px;
+}
+.apply__success p {
+  color: var(--charcoal-light);
 }
 
 /* --- SCHOLARSHIP --- */
@@ -716,10 +770,8 @@ input, select, textarea { font: inherit; }
   .support__stats {
     grid-template-columns: 1fr;
   }
-  .founder__photo { order: -1; }
-  .founder__photo-frame {
-    width: 180px;
-    height: 180px;
+  .apply__form .form-row {
+    grid-template-columns: 1fr;
   }
   .section { padding: 72px 0; }
 }

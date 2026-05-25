@@ -2,8 +2,9 @@
   "en": {
     "nav": {
       "mission": "Mission",
-      "founder": "Founder",
+      "story": "Our Story",
       "scholarship": "Scholarship",
+      "apply": "Apply",
       "support": "Support",
       "contact": "Contact"
     },
@@ -16,69 +17,95 @@
     },
     "mission": {
       "heading": "Our Mission",
-      "body": "The Egbert Aung Kyaing Tan Trust Scholarship exists to support Burmese students of Buddhist descent pursuing higher education in the United States. Founded by Dr. Egbert Aung Kyaing Tan — a psychiatrist who emigrated from Myanmar and built a 30-year career in American medicine — the trust reflects his belief that education transforms lives across generations.",
+      "body": "The Egbert Aung Kyaing Tan Trust Scholarship provides financial support to Burmese students pursuing higher education in the United States. We believe that talent is universal, but opportunity is not. This trust exists to close that gap — one student at a time.",
       "quote": "The gift of Dhamma excels all gifts.",
       "quote_source": "— Dhammapada 354",
       "icons": [
-        { "label": "Education", "text": "Supporting academic excellence" },
-        { "label": "Compassion", "text": "Rooted in Buddhist values" },
+        { "label": "Education", "text": "Supporting academic excellence in the US" },
+        { "label": "Compassion", "text": "Rooted in Buddhist values of generosity" },
         { "label": "Community", "text": "Building bridges across cultures" }
       ]
     },
-    "founder": {
-      "heading": "Dr. Egbert Aung Kyaing Tan",
-      "role": "Founder · Psychiatrist · Philanthropist",
-      "bio": [
-        "Born in Myanmar, Dr. Tan emigrated to the United States to pursue medicine. He completed his psychiatry residency at Montefiore Hospital in the Bronx and a fellowship in Biological Psychiatry at Albert Einstein Medical School.",
-        "Over 30 years, he has served communities across New York, Wisconsin, California, and Pennsylvania — including work with the Oneida Nation and Brown County Community Treatment Center. He also holds an MBA from the University of New Haven.",
-        "His journey from Burma to American psychiatry is the foundation of this scholarship — a testament to what becomes possible when talent meets opportunity."
-      ],
-      "credentials": [
-        "Montefiore Hospital",
-        "Albert Einstein Medical School",
-        "University of Minnesota",
-        "University of New Haven"
+    "story": {
+      "heading": "Our Story",
+      "body": [
+        "This scholarship was founded by Dr. Egbert Aung Kyaing Tan, a psychiatrist who emigrated from Myanmar to the United States. Like many Burmese immigrants, he arrived with limited resources but boundless determination.",
+        "Through years of hard work and the generosity of others, he built a career in medicine and spent over three decades serving communities across America. His journey taught him a simple truth: when someone invests in your education, it changes everything.",
+        "This trust is his way of paying that forward — ensuring that the next generation of Burmese students has the same chance to succeed, regardless of where they started."
       ]
     },
     "scholarship": {
       "heading": "The Scholarship",
+      "overview": "Five scholarships are awarded each academic year to Burmese students enrolled in US colleges and universities.",
       "eligibility": {
-        "title": "Eligibility",
+        "title": "Who Can Apply",
         "items": [
-          "Of Burmese descent",
-          "Buddhist background or values",
-          "Admitted to a US college or university",
-          "Demonstrated financial need"
+          "Of Burmese descent (born in Myanmar or of Burmese heritage)",
+          "Currently enrolled or admitted to a US college or university",
+          "Demonstrated financial need",
+          "Good academic standing (minimum 2.5 GPA)",
+          "Buddhist background or connection to Burmese Buddhist community"
         ]
       },
       "award": {
         "title": "Award Details",
         "items": [
-          "Amount: Determined annually",
-          "Duration: Per academic year",
-          "Covers: Tuition, living expenses, books"
+          "5 scholarships awarded per year",
+          "Amount: $1,000 — $5,000 per recipient",
+          "Duration: One academic year (renewable)",
+          "Covers: Tuition, living expenses, books, or related costs"
         ]
       },
-      "process": {
-        "title": "How to Apply",
-        "steps": [
-          { "num": "1", "text": "Check eligibility requirements" },
-          { "num": "2", "text": "Prepare required documents" },
-          { "num": "3", "text": "Submit your application" },
-          { "num": "4", "text": "Interview with the committee" },
-          { "num": "5", "text": "Award notification" }
+      "documents": {
+        "title": "Required Documents",
+        "items": [
+          "Completed application form (below)",
+          "Proof of Burmese heritage (birth certificate, passport, or family statement)",
+          "University acceptance letter or current enrollment verification",
+          "Personal essay (500–800 words): How will this scholarship help you achieve your goals?",
+          "Two letters of recommendation (academic or community)"
         ]
       },
-      "deadline": "Applications are reviewed on a rolling basis.",
+      "deadline": "Application deadline: June 30 each year. Awards announced by August 15.",
       "faq": {
         "title": "Frequently Asked Questions",
         "items": [
-          { "q": "Who can apply?", "a": "Any student of Burmese descent who has been admitted to a US college or university and demonstrates financial need." },
-          { "q": "How much is the scholarship?", "a": "The award amount is determined annually based on available funds and the number of qualified applicants." },
-          { "q": "When is the deadline?", "a": "Applications are reviewed on a rolling basis. Early submission is encouraged." },
-          { "q": "What documents do I need?", "a": "Proof of Burmese heritage, university admission letter, financial need statement, and two letters of recommendation." },
-          { "q": "Can I reapply if not selected?", "a": "Yes. Students may reapply in subsequent years." }
+          { "q": "How many students are awarded each year?", "a": "Five scholarships are awarded per academic year." },
+          { "q": "Can graduate students apply?", "a": "Yes. Both undergraduate and graduate students enrolled in US institutions are eligible." },
+          { "q": "Is the scholarship renewable?", "a": "Yes. Recipients may reapply each year, provided they maintain good academic standing." },
+          { "q": "Do I need to be Buddhist to apply?", "a": "We welcome applicants of all backgrounds. A connection to the Burmese Buddhist community is valued but not required to be a practicing Buddhist." },
+          { "q": "When will I hear back?", "a": "All applicants will be notified by August 15, regardless of outcome." },
+          { "q": "Can I apply if I'm still waiting for university admission?", "a": "Yes. Submit your application with a note about pending admission. We will request your acceptance letter before finalizing the award." }
         ]
+      }
+    },
+    "apply": {
+      "heading": "Apply Now",
+      "body": "Complete the form below to apply for the Egbert Aung Kyaing Tan Trust Scholarship. All fields are required.",
+      "form": {
+        "fields": {
+          "full_name": "Full Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "dob": "Date of Birth",
+          "country_of_birth": "Country of Birth",
+          "heritage": "Burmese Heritage (e.g., parents born in Myanmar, family connection)",
+          "university": "University or College Name",
+          "major": "Major / Field of Study",
+          "enrollment_status": "Enrollment Status",
+          "enrollment_options": ["Admitted (not yet enrolled)", "Freshman", "Sophomore", "Junior", "Senior", "Graduate Student"],
+          "gpa": "Current GPA (or most recent)",
+          "financial_need": "Describe your financial situation and why you need this scholarship (100–300 words)",
+          "essay": "Personal Essay: How will this scholarship help you achieve your goals? (500–800 words)",
+          "recommender_1_name": "Recommender 1 — Name",
+          "recommender_1_email": "Recommender 1 — Email",
+          "recommender_2_name": "Recommender 2 — Name",
+          "recommender_2_email": "Recommender 2 — Email",
+          "how_heard": "How did you hear about this scholarship?",
+          "how_heard_options": ["Community center or temple", "University financial aid office", "Friend or family", "Social media", "Other"],
+          "agreement": "I certify that all information provided is true and accurate to the best of my knowledge."
+        },
+        "submit": "Submit Application"
       }
     },
     "support": {
@@ -87,29 +114,29 @@
       "cards": [
         {
           "title": "Donate",
-          "text": "Make a tax-deductible contribution to fund scholarships.",
+          "text": "Make a tax-deductible contribution to fund scholarships for Burmese students.",
           "button": "Donate Now"
         },
         {
           "title": "Spread the Word",
-          "text": "Share this scholarship with students who may benefit.",
+          "text": "Share this scholarship with students, families, and community organizations who may benefit.",
           "button": "Share"
         },
         {
           "title": "Volunteer",
-          "text": "Mentor a student or help review applications.",
+          "text": "Help review applications, mentor students, or assist with outreach.",
           "button": "Join Us"
         }
       ],
       "stats": [
-        { "value": "0", "label": "Students Supported" },
-        { "value": "0", "label": "Dollars Awarded" },
-        { "value": "30+", "label": "Years of Service" }
+        { "value": "5", "label": "Scholarships Per Year" },
+        { "value": "$5K", "label": "Maximum Award" },
+        { "value": "100%", "label": "Volunteer Run" }
       ]
     },
     "contact": {
       "heading": "Get in Touch",
-      "body": "Have questions about the scholarship? Want to get involved? Reach out to us.",
+      "body": "Have questions about the scholarship or want to get involved? We'd love to hear from you.",
       "form": {
         "name": "Your Name",
         "email": "Your Email",
@@ -119,7 +146,7 @@
       },
       "info": {
         "email": "Contact via form above",
-        "location": "Green Bay, Wisconsin"
+        "location": "United States"
       }
     },
     "footer": {
@@ -131,8 +158,9 @@
   "my": {
     "nav": {
       "mission": "မစ်ရှင်",
-      "founder": "တည်ထောင်သူ",
+      "story": "ကျွန်ုပ်တို့၏ ဇာတ်လမ်း",
       "scholarship": "ပညာသင်ဆု",
+      "apply": "လျှောက်ထားရန်",
       "support": "ပံ့ပိုးကူညီရန်",
       "contact": "ဆက်သွယ်ရန်"
     },
@@ -145,69 +173,95 @@
     },
     "mission": {
       "heading": "ကျွန်ုပ်တို့၏ မစ်ရှင်",
-      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုသည် အမေရိကန်ပြည်ထောင်စု၌ အဆင့်မြင့်ပညာကို ဆက်လက်သင်ကြားလိုသော ဗုဒ္ဓဘာသာဝင် မြန်မာကျောင်းသားများကို ပံ့ပိုးပေးရန် ရပ်တည်ပါသည်။ မြန်မာနိုင်ငံမှ ပြောင်းရွှေ့လာပြီး အမေရိကန်ဆေးပညာတွင် နှစ် ၃၀ ကျော် အသက်မွေးဝမ်းကြောင်းပြုခဲ့သော စိတ်ပညာရှင် ဒေါက်တာအက်ဂ်ဘတ်အောင်ကျိုင်းတန် တည်ထောင်ခဲ့သော ဤယုံကြည်မှုသည် ပညာရေးသည် မျိုးဆက်များတစ်လျှောက် ဘဝကို ပြောင်းလဲစေသည်ဟူသော သူ၏ယုံကြည်ချက်ကို ထင်ဟပ်ပါသည်။",
+      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုသည် အမေရိကန်ပြည်ထောင်စု၌ အဆင့်မြင့်ပညာကို ဆက်လက်သင်ကြားလိုသော မြန်မာကျောင်းသားများကို ငွေကြေးဆိုင်ရာ ပံ့ပိုးမှုပေးပါသည်။ ထက်မြက်မှုသည် အနှံ့အပြားရှိသော်လည်း အခွင့်အရေးသည် မရှိနိုင်ဟု ကျွန်ုပ်တို့ ယုံကြည်ပါသည်။ ဤယုံကြည်မှုသည် ထိုကွာဟချက်ကို ပိတ်ပစ်ရန် ရှိနေပါသည် — တစ်ကြိမ်လျှင် ကျောင်းသားတစ်ဦးစီ။",
       "quote": "ဓမ္မဒါနသည် ဒါနအလုံးစုံတို့၌ အထူးဆုံးဖြစ်သည်။",
       "quote_source": "— ဓမ္မပဒ ၃၅၄",
       "icons": [
-        { "label": "ပညာရေး", "text": "ပညာရေးထူးချွန်မှုကို ပံ့ပိုးခြင်း" },
-        { "label": "ကရုဏာ", "text": "ဗုဒ္ဓဘာသာတန်ဖိုးများအပေါ် အခြေခံခြင်း" },
+        { "label": "ပညာရေး", "text": "အမေရိကန်၌ ပညာရေးထူးချွန်မှုကို ပံ့ပိုးခြင်း" },
+        { "label": "ကရုဏာ", "text": "ဗုဒ္ဓဘာသာ ရက်ရောမှုတန်ဖိုးများအပေါ် အခြေခံခြင်း" },
         { "label": "အသိုင်းအဝိုင်း", "text": "ယဉ်ကျေးမှုများကြား တံတားတည်ဆောက်ခြင်း" }
       ]
     },
-    "founder": {
-      "heading": "ဒေါက်တာအက်ဂ်ဘတ်အောင်ကျိုင်းတန်",
-      "role": "တည်ထောင်သူ · စိတ်ပညာရှင် · ပရဟိတသမား",
-      "bio": [
-        "မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့ပြီး ဒေါက်တာတန်သည် ဆေးပညာကို ဆက်လက်လေ့လာရန် အမေရိကန်ပြည်ထောင်စုသို့ ပြောင်းရွှေ့လာခဲ့ပါသည်။ ဘရွန်ဇ်ရှိ Montefiore ဆေးရုံတွင် စိတ်ပညာအထူးပြုလေ့ကျင့်မှုနှင့် Albert Einstein ဆေးပညာကျောင်းတွင် ဇီဝစိတ်ပညာဆိုင်ရာ အထူးပြုလေ့ကျင့်မှုကို ပြီးဆုံးခဲ့ပါသည်။",
-        "နှစ် ၃၀ ကျော်ကာလအတွင်း နယူးယောက်၊ ဝစ္စကွန်ဆင်၊ ကယ်လီဖိုးနီးယားနှင့် ပင်ဆယ်ဗေးနီးယားရှိ အသိုင်းအဝိုင်းများကို ဝတ်ပြုခဲ့ပြီး Oneida Nation နှင့် Brown County Community Treatment Center တို့တွင် အလုပ်လုပ်ခဲ့ပါသည်။ University of New Haven မှ MBA ဘွဲ့ကိုလည်း ရရှိခဲ့ပါသည်။",
-        "ဗမာနိုင်ငံမှ အမေရိကန်စိတ်ပညာရှင်အဖြစ်သို့ သူ၏ခရီးသည် ဤပညာသင်ဆု၏ အခြေခံဖြစ်ပါသည် — ထက်မြက်သော ပါရမီသည် အခွင့်အရေးနှင့် ဆုံတွေ့သောအခါ ဘာဖြစ်နိုင်သည်ကို သက်သေပြခြင်းဖြစ်ပါသည်။"
-      ],
-      "credentials": [
-        "Montefiore ဆေးရုံ",
-        "Albert Einstein ဆေးပညာကျောင်း",
-        "မင်နီဆိုတာတက္ကသိုလ်",
-        "နယူးဟိဗင်တက္ကသိုလ်"
+    "story": {
+      "heading": "ကျွန်ုပ်တို့၏ ဇာတ်လမ်း",
+      "body": [
+        "ဤပညာသင်ဆုကို မြန်မာနိုင်ငံမှ အမေရိကန်ပြည်ထောင်စုသို့ ပြောင်းရွှေ့လာသော စိတ်ပညာရှင် ဒေါက်တာအက်ဂ်ဘတ်အောင်ကျိုင်းတန် တည်ထောင်ခဲ့ပါသည်။ မြန်မာရွှေ့ပြောင်းနေထိုင်သူ အများစုကဲ့သို့ပင် သူသည် ကန့်သတ်ထားသော အရင်းအနှီးဖြင့် ရောက်ရှိလာခဲ့သော်လည်း အကန့်အသတ်မဲ့သော ဆုံးဖြတ်ချက်ဖြင့် ရောက်ရှိလာခဲ့ပါသည်။",
+        "နှစ်ပေါင်းများစွာ ကြိုးစားအားထုတ်မှုနှင့် အခြားသူများ၏ ရက်ရောမှုဖြင့် သူသည် ဆေးပညာတွင် အသက်မွေးဝမ်းကြောင်းတည်ဆောက်ခဲ့ပြီး အမေရိကန်တစ်ဝိုက်ရှိ အသိုင်းအဝိုင်းများကို နှစ် ၃၀ ကျော် ဝတ်ပြုခဲ့ပါသည်။ သူ၏ခရီးက ရိုးရှင်းသော အမှန်တရားတစ်ခုကို သင်ပေးခဲ့ပါသည် — တစ်စုံတစ်ယောက်က သင်၏ပညာရေးတွင် ရင်းနှီးမြှုပ်နှံသောအခါ အရာအားလုံးကို ပြောင်းလဲသွားစေပါသည်။",
+        "ဤယုံကြည်မှုသည် ထိုအရာကို ပြန်ဆပ်သော နည်းလမ်းဖြစ်ပါသည် — မြန်မာကျောင်းသားများ၏ နောက်မျိုးဆက်သည် ၎င်းတို့ စတင်ခဲ့သည့်နေရာကို ဂရုမစိုက်ဘဲ အောင်မြင်ရန် အခွင့်အရေးတူညီစွာ ရရှိစေရန် သေချာစေပါသည်။"
       ]
     },
     "scholarship": {
       "heading": "ပညာသင်ဆု",
+      "overview": "အမေရိကန်ကောလိပ်နှင့် တက္ကသိုလ်များတွင် တက်ရောက်နေသော မြန်မာကျောင်းသားများအား ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။",
       "eligibility": {
         "title": "လျှောက်ထားနိုင်သူများ",
         "items": [
-          "မြန်မာအမျိုးအနွယ်",
-          "ဗုဒ္ဓဘာသာဝင် သို့မဟုတ် ဗုဒ္ဓဘာသာတန်ဖိုးများ",
-          "အမေရိကန်တက္ကသိုလ်တစ်ခုသို့ ဝင်ခွင့်ရရှိပြီးသူ",
-          "ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသူ"
+          "မြန်မာအမျိုးအနွယ် (မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ သို့မဟုတ် မြန်မာအမျိုးအနွယ်)",
+          "လက်ရှိ အမေရိကန်ကောလိပ် သို့မဟုတ် တက္ကသိုလ်တွင် တက်ရောက်နေသူ သို့မဟုတ် ဝင်ခွင့်ရရှိပြီးသူ",
+          "ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသူ",
+          "ကောင်းမွန်သော ပညာရေးအနေအထား (အနိမ့်ဆုံး GPA ၂.၅)",
+          "ဗုဒ္ဓဘာသာဝင် သို့မဟုတ် မြန်မာဗုဒ္ဓဘာသာ အသိုင်းအဝိုင်းနှင့် ဆက်စပ်မှုရှိသူ"
         ]
       },
       "award": {
         "title": "ဆုကြေးအသေးစိတ်",
         "items": [
-          "ပမာဏ — နှစ်စဉ်သတ်မှတ်",
-          "ကာလ — ပညာသင်နှစ်အလိုက်",
+          "နှစ်စဉ် ပညာသင်ဆု ငါးဆု ချီးမြှင့်",
+          "ပမာဏ — တစ်ဦးလျှင် $၁,၀၀၀ မှ $၅,၀၀၀",
+          "ကာလ — ပညာသင်နှစ်တစ်နှစ် (သက်တမ်းတိုးနိုင်)",
           "ဖုံးလွှမ်းမှု — ကျောင်းလခ၊ နေထိုင်စရိတ်၊ စာအုပ်စရိတ်"
         ]
       },
-      "process": {
-        "title": "လျှောက်ထားပုံ",
-        "steps": [
-          { "num": "၁", "text": "လျှောက်ထားနိုင်သူ အရည်အချင်းများကို စစ်ဆေးပါ" },
-          { "num": "၂", "text": "လိုအပ်သော စာရွက်စာတမ်းများ ပြင်ဆင်ပါ" },
-          { "num": "၃", "text": "လျှောက်လွှာတင်သွင်းပါ" },
-          { "num": "၄", "text": "ကော်မတီနှင့် အင်တာဗျူး" },
-          { "num": "၅", "text": "ဆုကြေးကြေညာချက်" }
+      "documents": {
+        "title": "လိုအပ်သော စာရွက်စာတမ်းများ",
+        "items": [
+          "ပြည့်စုံသော လျှောက်လွှာဖောင် (အောက်ပါအတိုင်း)",
+          "မြန်မာအမျိုးအနွယ် သက်သေ (မွေးစာရင်း၊ နိုင်ငံကူးလက်မှတ် သို့မဟုတ် မိသားစုထုတ်ပြန်ချက်)",
+          "တက္ကသိုလ် လက်ခံစာ သို့မဟုတ် လက်ရှိ တက်ရောက်နေကြောင်း အထောက်အထား",
+          "ကိုယ်ပိုင်စာစီစာကုံး (စကားလုံး ၅၀၀–၈၀၀) — ဤပညာသင်ဆုသည် သင်၏ပန်းတိုင်များကို အောင်မြင်ရန် မည်သို့ကူညီမည်နည်း?",
+          "အကြံပြုစာ နှစ်စောင် (ပညာရေး သို့မဟုတ် အသိုင်းအဝိုင်း)"
         ]
       },
-      "deadline": "လျှောက်လွှာများကို အဆက်မပြတ် စစ်ဆေးပါသည်။",
+      "deadline": "လျှောက်လွှာ နောက်ဆုံးရက် — ဇွန်လ ၃၀ ရက်နေ့ နှစ်တိုင်း။ ဩဂုတ်လ ၁၅ ရက်နေ့တွင် ဆုကြေးကြေညာပါသည်။",
       "faq": {
         "title": "မေးလေ့ရှိသော မေးခွန်းများ",
         "items": [
-          { "q": "ဘယ်သူလျှောက်ထားနိုင်လဲ?", "a": "အမေရိကန်တက္ကသိုလ်တစ်ခုသို့ ဝင်ခွင့်ရရှိပြီး ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသော မြန်မာအမျိုးအနွယ် ကျောင်းသားတိုင်း လျှောက်ထားနိုင်ပါသည်။" },
-          { "q": "ပညာသင်ဆု ပမာဏ ဘယ်လောက်လဲ?", "a": "ဆုကြေးပမာဏကို ရရှိနိုင်သော ရန်ပုံငွေနှင့် အရည်အချင်းပြည့်မီသော လျှောက်ထားသူ အရေအတွက်ပေါ်မူတည်၍ နှစ်စဉ်သတ်မှတ်ပါသည်။" },
-          { "q": "နောက်ဆုံးရက် ဘယ်တော့လဲ?", "a": "လျှောက်လွှာများကို အဆက်မပြတ် စစ်ဆေးပါသည်။ စောစောတင်သွင်းရန် အကြံပြုပါသည်။" },
-          { "q": "ဘယ်စာရွက်စာတမ်းတွေ လိုအပ်လဲ?", "a": "မြန်မာအမျိုးအနွယ် သက်သေ၊ တက္ကသိုလ်ဝင်ခွင့်စာ၊ ငွေကြေးလိုအပ်ချက် ထုတ်ပြန်ချက်နှင့် အကြံပြုစာ နှစ်စောင်။" },
-          { "q": "ရွေးချယ်မခံရပါက ပြန်လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ နောက်နှစ်များတွင် ပြန်လည်လျှောက်ထားနိုင်ပါသည်။" }
+          { "q": "နှစ်စဉ် ကျောင်းသား ဘယ်နှစ်ယောက် ရွေးချယ်ခံရလဲ?", "a": "ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။" },
+          { "q": "ဘွဲ့ကြိုကျောင်းသားများ လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ အမေရိကန်တက္ကသိုလ်များတွင် တက်ရောက်နေသော ဘွဲ့ကြိုနှင့် ဘွဲ့လွန်ကျောင်းသားများ လျှောက်ထားနိုင်ပါသည်။" },
+          { "q": "ပညာသင်ဆုကို သက်တမ်းတိုးနိုင်ပါသလား?", "a": "ရပါသည်။ ကောင်းမွန်သော ပညာရေးအနေအထားကို ထိန်းသိမ်းထားပါက နှစ်တိုင်း ပြန်လည်လျှောက်ထားနိုင်ပါသည်။" },
+          { "q": "ဗုဒ္ဓဘာသာဝင်ဖြစ်ရန် လိုအပ်ပါသလား?", "a": "ကျွန်ုပ်တို့သည် နောက်ခံအမျိုးမျိုးရှိသော လျှောက်ထားသူများကို ကြိုဆိုပါသည်။ မြန်မာဗုဒ္ဓဘာသာ အသိုင်းအဝိုင်းနှင့် ဆက်စပ်မှုကို တန်ဖိုးထားပါသည် သို့သော် ဗုဒ္ဓဘာသာကိုင်းကျွန်းပြုသူဖြစ်ရန် မလိုအပ်ပါ။" },
+          { "q": "အဖြေကို ဘယ်တော့ကြားရမလဲ?", "a": "ရလဒ်မည်သို့ပင်ဖြစ်စေ လျှောက်ထားသူအားလုံးကို ဩဂုတ်လ ၁၅ ရက်နေ့တွင် အကြောင်းကြားပါမည်။" },
+          { "q": "တက္ကသိုလ်ဝင်ခွင့်ကို စောင့်ဆိုင်းနေဆဲဖြစ်ပါက လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ ဆိုင်းငံ့ထားသော ဝင်ခွင့်အကြောင်း မှတ်ချက်ဖြင့် သင်၏လျှောက်လွှာကို တင်သွင်းပါ။ ဆုကြေးမတိုင်မီ သင်၏လက်ခံစာကို တောင်းခံပါမည်။" }
         ]
+      }
+    },
+    "apply": {
+      "heading": "ယခုလျှောက်ထားပါ",
+      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုအတွက် လျှောက်ထားရန် အောက်ပါဖောင်ကို ဖြည့်ပါ။ အကွက်အားလုံး ဖြည့်ရန် လိုအပ်ပါသည်။",
+      "form": {
+        "fields": {
+          "full_name": "အမည်အပြည့်အစုံ",
+          "email": "အီးမေးလ် လိပ်စာ",
+          "phone": "ဖုန်းနံပါတ်",
+          "dob": "မွေးသက္ကရာဇ်",
+          "country_of_birth": "မွေးဖွားသော နိုင်ငံ",
+          "heritage": "မြန်မာအမျိုးအနွယ် (ဥပမာ — မိဘများ မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ၊ မိသားစုဆက်စပ်မှု)",
+          "university": "တက္ကသိုလ် သို့မဟုတ် ကောလိပ် အမည်",
+          "major": "အဓိကဘာသာရပ် / လေ့လာမှုနယ်ပယ်",
+          "enrollment_status": "တက်ရောက်နေသော အနေအထား",
+          "enrollment_options": ["ဝင်ခွင့်ရရှိပြီး (မတက်ရောက်ရသေး)", "ပထမနှစ်", "ဒုတိယနှစ်", "တတိယနှစ်", "စတုတ္ထနှစ်", "ဘွဲ့လွန်ကျောင်းသား"],
+          "gpa": "လက်ရှိ GPA (သို့မဟုတ် နောက်ဆုံးရရှိခဲ့သော)",
+          "financial_need": "သင်၏ ငွေကြေးအခြေအနေနှင့် ဤပညာသင်ဆု ဘာကြောင့်လိုအပ်သည်ကို ဖော်ပြပါ (စကားလုံး ၁၀၀–၃၀၀)",
+          "essay": "ကိုယ်ပိုင်စာစီစာကုံး — ဤပညာသင်ဆုသည် သင်၏ပန်းတိုင်များကို အောင်မြင်ရန် မည်သို့ကူညီမည်နည်း? (စကားလုံး ၅၀၀–၈၀၀)",
+          "recommender_1_name": "အကြံပြုသူ ၁ — အမည်",
+          "recommender_1_email": "အကြံပြုသူ ၁ — အီးမေးလ်",
+          "recommender_2_name": "အကြံပြုသူ ၂ — အမည်",
+          "recommender_2_email": "အကြံပြုသူ ၂ — အီးမေးလ်",
+          "how_heard": "ဤပညာသင်ဆုအကြောင်း ဘယ်ကကြားခဲ့ပါသလဲ?",
+          "how_heard_options": ["အသိုင်းအဝိုင်းစင်တာ သို့မဟုတ် ဘုန်းကြီးကျောင်း", "တက္ကသိုလ် ငွေကြေးအကူအညီရုံး", "မိတ်ဆွေ သို့မဟုတ် မိသားစု", "လူမှုမီဒီယာ", "အခြား"],
+          "agreement": "ပေးထားသော အချက်အလက်အားလုံးသည် ကျွန်ုပ်၏ အသိပညာအရ မှန်ကန်ပြီး တိကျကြောင်း အတည်ပြုပါသည်။"
+        },
+        "submit": "လျှောက်လွှာ တင်သွင်းရန်"
       }
     },
     "support": {
@@ -216,29 +270,29 @@
       "cards": [
         {
           "title": "လှူဒါန်းရန်",
-          "text": "ပညာသင်ဆုရန်ပုံငွေအတွက် အခွန်လျှော့ချခွင့်ရ လှူဒါန်းမှုပြုလုပ်ပါ။",
+          "text": "မြန်မာကျောင်းသားများအတွက် ပညာသင်ဆုရန်ပုံငွေကို အခွန်လျှော့ချခွင့်ရ လှူဒါန်းမှုပြုလုပ်ပါ။",
           "button": "ယခုလှူဒါန်းပါ"
         },
         {
           "title": "သတင်းပျံ့နှံ့စေရန်",
-          "text": "ဤပညာသင်ဆုကို အကျိုးခံစားနိုင်သော ကျောင်းသားများထံ မျှဝေပါ။",
+          "text": "ဤပညာသင်ဆုကို အကျိုးခံစားနိုင်သော ကျောင်းသားများ၊ မိသားစုများနှင့် အသိုင်းအဝိုင်းအဖွဲ့အစည်းများထံ မျှဝေပါ။",
           "button": "မျှဝေရန်"
         },
         {
           "title": "စေတနာ့ဝန်ထမ်း",
-          "text": "ကျောင်းသားတစ်ဦးကို အကြံပေးပါ သို့မဟုတ် လျှောက်လွှာများ စစ်ဆေးရာတွင် ကူညီပါ။",
+          "text": "လျှောက်လွှာများ စစ်ဆေးရာတွင် ကူညီပါ၊ ကျောင်းသားများကို အကြံပေးပါ သို့မဟုတ် ထိတွေ့ဆက်ဆံရာတွင် ကူညီပါ။",
           "button": "ပါဝင်ပါ"
         }
       ],
       "stats": [
-        { "value": "0", "label": "ပံ့ပိုးပေးခဲ့သော ကျောင်းသားများ" },
-        { "value": "0", "label": "ချီးမြှင့်ခဲ့သော ဒေါ်လာပမာဏ" },
-        { "value": "၃၀+", "label": "နှစ်ပေါင်းများစွာ ဝတ်ပြုမှု" }
+        { "value": "5", "label": "နှစ်စဉ် ပညာသင်ဆုများ" },
+        { "value": "$5K", "label": "အမြင့်ဆုံး ဆုကြေး" },
+        { "value": "100%", "label": "စေတနာ့ဝန်ထမ်း ဦးဆောင်" }
       ]
     },
     "contact": {
       "heading": "ဆက်သွယ်ရန်",
-      "body": "ပညာသင်ဆုအကြောင်း မေးခွန်းရှိပါသလား? ပါဝင်လိုပါသလား? ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။",
+      "body": "ပညာသင်ဆုအကြောင်း မေးခွန်းရှိပါသလား? ပါဝင်လိုပါသလား? သင်၏အကြောင်းကို ကြားချင်ပါသည်။",
       "form": {
         "name": "သင်၏အမည်",
         "email": "သင်၏အီးမေးလ်",
@@ -248,7 +302,7 @@
       },
       "info": {
         "email": "အထက်ပါဖောင်မှတစ်ဆင့် ဆက်သွယ်ပါ",
-        "location": "ဂရင်းဘေး၊ ဝစ္စကွန်ဆင်"
+        "location": "အမေရိကန်ပြည်ထောင်စု"
       }
     },
     "footer": {
