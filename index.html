@@ -144,6 +144,7 @@
       <div class="scholarship__cards">
         <div class="card">
           <h3 data-i18n="scholarship.eligibility.title">Who Can Apply</h3>
+          <p class="card__subtitle" data-i18n="scholarship.eligibility.subtitle">All five criteria must be met:</p>
           <ul data-i18n-list="scholarship.eligibility.items"></ul>
         </div>
         <div class="card">
@@ -155,6 +156,20 @@
           <ul data-i18n-list="scholarship.documents.items"></ul>
         </div>
       </div>
+
+      <!-- RUBRIC -->
+      <div class="rubric">
+        <h3 class="rubric__title" data-i18n="scholarship.rubric.title">How We Select</h3>
+        <p class="rubric__subtitle" data-i18n="scholarship.rubric.subtitle">Applications are scored on four criteria:</p>
+        <div class="rubric__grid" data-i18n-rubric="scholarship.rubric.items"></div>
+      </div>
+
+      <!-- CASE BY CASE -->
+      <div class="casebycase">
+        <h3 data-i18n="scholarship.casebycase.title">Case-by-Case Consideration</h3>
+        <p data-i18n="scholarship.casebycase.body">We recognize that every student's situation is unique.</p>
+      </div>
+
       <p class="scholarship__deadline" data-i18n="scholarship.deadline">Application deadline: June 30 each year. Awards announced by August 15.</p>
 
       <!-- FAQ -->
@@ -169,8 +184,28 @@
   <section class="section apply" id="apply">
     <div class="container">
       <h2 class="section__title" data-i18n="apply.heading">Apply Now</h2>
-      <p class="apply__body" data-i18n="apply.body">Complete the form below to apply. All fields are required.</p>
-      <form class="apply__form" id="applyForm">
+
+      <!-- ELIGIBILITY PRE-CHECK -->
+      <div class="precheck" id="precheck">
+        <h3 data-i18n="apply.precheck.title">Check Your Eligibility</h3>
+        <p data-i18n="apply.precheck.body">Answer these five questions before starting your application.</p>
+        <div class="precheck__questions" id="precheckQuestions"></div>
+        <div class="precheck__result" id="precheckResult" style="display:none">
+          <div class="precheck__pass" id="precheckPass" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--jade)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>
+            <p data-i18n="apply.precheck.pass">You may be eligible! Please complete the application below.</p>
+          </div>
+          <div class="precheck__fail" id="precheckFail" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6M9 9l6 6"/></svg>
+            <p id="precheckFailMsg"></p>
+            <p class="precheck__fail-contact" data-i18n="apply.precheck.fail_contact">If you believe you qualify, please contact us.</p>
+          </div>
+        </div>
+        <button class="btn btn--primary" id="precheckSubmit" data-i18n="apply.precheck.submit">Check Eligibility</button>
+      </div>
+
+      <!-- APPLICATION FORM (hidden until pre-check passes) -->
+      <form class="apply__form" id="applyForm" style="display:none">
         <div class="form-row">
           <div class="form-group">
             <label data-i18n="apply.form.fields.full_name">Full Name</label>
@@ -300,8 +335,8 @@
           <span class="stat__label" data-i18n="support.stats.0.label">Scholarships Per Year</span>
         </div>
         <div class="stat">
-          <span class="stat__value">$5K</span>
-          <span class="stat__label" data-i18n="support.stats.1.label">Maximum Award</span>
+          <span class="stat__value">Full</span>
+          <span class="stat__label" data-i18n="support.stats.1.label">First Year Coverage</span>
         </div>
         <div class="stat">
           <span class="stat__value">100%</span>

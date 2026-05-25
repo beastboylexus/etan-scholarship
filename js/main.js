@@ -26,6 +26,8 @@
     applyLang(currentLang);
     setupNav();
     setupLangToggle();
+    setupPrecheck();
+    renderRubric(config[currentLang]);
     setupScrollAnimations();
     setupCounters();
     setupForms();
@@ -224,6 +226,88 @@
   function setFooterYear() {
     const el = document.getElementById('year');
     if (el) el.textContent = new Date().getFullYear();
+  }
+
+  // --- PRECHECK ---
+  function setupPrecheck() {
+    const container = document.getElementById('precheckQuestions');
+    const submitBtn = document.getElementById('precheckSubmit');
+    const result = document.getElementById('precheckResult');
+    const passEl = document.getElementById('precheckPass');
+    const failEl = document.getElementById('precheckFail');
+    const failMsg = document.getElementById('precheckFailMsg');
+    const precheckEl = document.getElementById('precheck');
+    const applyForm = document.getElementById('applyForm');
+
+    if (!container || !submitBtn) return;
+
+    const questions = getNested(config[currentLang], 'apply.precheck.questions') || [];
+    let answers = {};
+
+    function renderQuestions() {
+      container.innerHTML = questions.map((q, i) => `
+        <div class="precheck__q" data-idx="${i}">
+          <p>${q.text}</p>
+          <div class="precheck__options">
+            <label><input type="radio" name="pq_${i}" value="yes" required> ${currentLang === 'my' ? 'ဟုတ်ကဲ့' : 'Yes'}</label>
+            <label><input type="radio" name="pq_${i}" value="no"> ${currentLang === 'my' ? 'မဟုတ်ပါ' : 'No'}</label>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    renderQuestions();
+
+    submitBtn.addEventListener('click', () => {
+      let failQuestion = null;
+      questions.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="pq_${i}"]:checked`);
+        if (!selected) return;
+        answers[q.id] = selected.value;
+        const failOn = q.failOn || 'no';
+        if (selected.value === failOn) {
+          failQuestion = q;
+        }
+      });
+
+      // Check if all answered
+      const allAnswered = questions.every((q, i) => document.querySelector(`input[name="pq_${i}"]:checked`));
+      if (!allAnswered) {
+        alert(currentLang === 'my' ? 'မေးခွန်းအားလုံးကို ဖြေဆိုပါ။' : 'Please answer all questions.');
+        return;
+      }
+
+      result.style.display = 'block';
+      if (failQuestion) {
+        passEl.style.display = 'none';
+        failEl.style.display = 'flex';
+        failMsg.textContent = failQuestion.fail;
+      } else {
+        failEl.style.display = 'none';
+        passEl.style.display = 'flex';
+        // Show the form
+        setTimeout(() => {
+          precheckEl.style.display = 'none';
+          applyForm.style.display = 'flex';
+          applyForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 1500);
+      }
+    });
+  }
+
+  // --- RUBRIC RENDERING ---
+  function renderRubric(data) {
+    const rubricGrid = document.querySelector('[data-i18n-rubric]');
+    if (!rubricGrid) return;
+    const items = getNested(data, 'scholarship.rubric.items');
+    if (!items) return;
+    rubricGrid.innerHTML = items.map(item => `
+      <div class="rubric__item">
+        <span class="rubric__weight">${item.weight}</span>
+        <h4>${item.category}</h4>
+        <p>${item.detail}</p>
+      </div>
+    `).join('');
   }
 
   // --- FORMS ---

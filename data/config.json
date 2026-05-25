@@ -11,19 +11,19 @@
     "hero": {
       "title": "Egbert Aung Kyaing Tan",
       "subtitle": "Trust Scholarship",
-      "tagline": "Empowering Burmese Scholars to Flourish in America",
+      "tagline": "Empowering Burmese STEM Students to Flourish in America",
       "cta_primary": "Learn More",
-      "cta_secondary": "Apply Now"
+      "cta_secondary": "Check Eligibility"
     },
     "mission": {
       "heading": "Our Mission",
-      "body": "The Egbert Aung Kyaing Tan Trust Scholarship provides financial support to Burmese students pursuing higher education in the United States. We believe that talent is universal, but opportunity is not. This trust exists to close that gap — one student at a time.",
+      "body": "The Egbert Aung Kyaing Tan Trust Scholarship provides financial support to Burmese students pursuing STEM degrees in the United States. We focus on students who have no family support in America — those who are building a new life alone, with talent and determination but limited resources.",
       "quote": "The gift of Dhamma excels all gifts.",
       "quote_source": "— Dhammapada 354",
       "icons": [
-        { "label": "Education", "text": "Supporting academic excellence in the US" },
-        { "label": "Compassion", "text": "Rooted in Buddhist values of generosity" },
-        { "label": "Community", "text": "Building bridges across cultures" }
+        { "label": "STEM Education", "text": "Science, technology, engineering, and math" },
+        { "label": "First-Generation", "text": "Students with no family in the US" },
+        { "label": "Financial Need", "text": "For those who truly cannot afford it" }
       ]
     },
     "story": {
@@ -36,24 +36,37 @@
     },
     "scholarship": {
       "heading": "The Scholarship",
-      "overview": "Five scholarships are awarded each academic year to Burmese students enrolled in US colleges and universities.",
+      "overview": "Five scholarships are awarded each academic year to Burmese students pursuing STEM degrees at US colleges and universities.",
       "eligibility": {
         "title": "Who Can Apply",
+        "subtitle": "All five criteria must be met:",
         "items": [
-          "Of Burmese descent (born in Myanmar or of Burmese heritage)",
-          "Currently enrolled or admitted to a US college or university",
-          "Demonstrated financial need",
-          "Good academic standing (minimum 2.5 GPA)",
-          "Buddhist background or connection to Burmese Buddhist community"
+          "Burmese nationality — born in Myanmar, or at least one parent born in Myanmar",
+          "Pursuing a STEM degree (Science, Technology, Engineering, Mathematics, Nursing, or Pre-Med)",
+          "First-generation in the US — no siblings, parents, or direct relatives currently residing in the United States",
+          "Demonstrated financial need — family income below $50,000/year, or Pell Grant eligible, or FAFSA Student Aid Index below 5,000",
+          "Minimum 2.5 cumulative GPA (on a 4.0 scale)"
+        ]
+      },
+      "rubric": {
+        "title": "How We Select",
+        "subtitle": "Applications are scored on four criteria:",
+        "items": [
+          { "category": "Financial Need", "weight": "40%", "detail": "Family income, household size, unmet need" },
+          { "category": "Character & Resilience", "weight": "30%", "detail": "Essay quality — overcoming adversity, self-awareness, goals" },
+          { "category": "Academic Standing", "weight": "15%", "detail": "GPA, STEM course load, academic trajectory" },
+          { "category": "First-Generation Hardship", "weight": "15%", "detail": "No family support network in the US" }
         ]
       },
       "award": {
         "title": "Award Details",
         "items": [
           "5 scholarships awarded per year",
-          "Amount: $1,000 — $5,000 per recipient",
-          "Duration: One academic year (renewable)",
-          "Covers: Tuition, living expenses, books, or related costs"
+          "First year: Full scholarship covering tuition, living expenses, books, and related costs",
+          "Subsequent years: Monthly living allowance based on academic performance",
+          "Duration: Renewable up to 4 years (undergraduate) or 2 years (master's)",
+          "Voluntary opt-out: Recipients who wish to discontinue may do so at any time",
+          "Available at accredited US colleges and universities — both undergraduate and graduate programs"
         ]
       },
       "documents": {
@@ -62,26 +75,67 @@
           "Completed application form (below)",
           "Proof of Burmese heritage (birth certificate, passport, or family statement)",
           "University acceptance letter or current enrollment verification",
-          "Personal essay (500–800 words): How will this scholarship help you achieve your goals?",
+          "Personal essay (500–800 words): Describe a significant challenge you have overcome and how it shaped your goals",
           "Two letters of recommendation (academic or community)"
         ]
+      },
+      "casebycase": {
+        "title": "Case-by-Case Consideration",
+        "body": "We recognize that every student's situation is unique. If you do not meet one or more of the eligibility criteria above but believe you have a compelling case, you may still apply. Applications that do not meet the standard criteria will be reviewed at the discretion of the selection committee. Please use the financial need essay to explain your circumstances in detail."
       },
       "deadline": "Application deadline: June 30 each year. Awards announced by August 15.",
       "faq": {
         "title": "Frequently Asked Questions",
         "items": [
-          { "q": "How many students are awarded each year?", "a": "Five scholarships are awarded per academic year." },
-          { "q": "Can graduate students apply?", "a": "Yes. Both undergraduate and graduate students enrolled in US institutions are eligible." },
-          { "q": "Is the scholarship renewable?", "a": "Yes. Recipients may reapply each year, provided they maintain good academic standing." },
-          { "q": "Do I need to be Buddhist to apply?", "a": "We welcome applicants of all backgrounds. A connection to the Burmese Buddhist community is valued but not required to be a practicing Buddhist." },
-          { "q": "When will I hear back?", "a": "All applicants will be notified by August 15, regardless of outcome." },
-          { "q": "Can I apply if I'm still waiting for university admission?", "a": "Yes. Submit your application with a note about pending admission. We will request your acceptance letter before finalizing the award." }
+          { "q": "Do I have to be a STEM major?", "a": "Yes. This scholarship is specifically for students pursuing degrees in Science, Technology, Engineering, Mathematics, Nursing, or Pre-Med. Liberal arts, business, and humanities are not eligible." },
+          { "q": "What does 'first-generation in the US' mean?", "a": "It means you have no siblings, parents, or direct relatives currently living in the United States. You are building a life here on your own, without a family support network nearby." },
+          { "q": "What if I have a relative in the US but we are not close?", "a": "The criterion is about having no direct family support in the country. If you have a sibling, parent, or close relative residing in the US, you would not qualify under this criterion." },
+          { "q": "How is financial need assessed?", "a": "We use a trust-based approach. You provide your family income range and FAFSA status (if available). We do not require tax documents or bank statements." },
+          { "q": "Can graduate students apply?", "a": "Yes. Both undergraduate and graduate students in STEM fields are eligible." },
+          { "q": "What does the scholarship cover?", "a": "In the first year, the scholarship is a full award covering tuition, living expenses, books, and related costs. In subsequent years, recipients receive a monthly living allowance based on academic performance. Recipients may voluntarily opt out at any time." },
+          { "q": "Is it available for graduate students?", "a": "Yes. The scholarship is available for both undergraduate and master's degree programs at accredited US colleges and universities." },
+          { "q": "Is the scholarship renewable?", "a": "Yes. Recipients may continue for up to 4 years (undergraduate) or 2 years (master's), provided they maintain a 2.5 GPA and continue in a STEM program." },
+          { "q": "What if I don't meet all the criteria?", "a": "We review applications that do not meet standard eligibility on a case-by-case basis at the discretion of the selection committee. If you have a compelling circumstance, we encourage you to apply and explain your situation in the financial need essay." },
+          { "q": "When will I hear back?", "a": "All applicants will be notified by August 15, regardless of outcome." }
         ]
       }
     },
     "apply": {
       "heading": "Apply Now",
-      "body": "Complete the form below to apply for the Egbert Aung Kyaing Tan Trust Scholarship. All fields are required.",
+      "precheck": {
+        "title": "Check Your Eligibility",
+        "body": "Answer these five questions before starting your application.",
+        "questions": [
+          {
+            "id": "nationality",
+            "text": "Were you born in Myanmar, or is at least one of your parents born in Myanmar?",
+            "fail": "This scholarship is for students of Burmese descent."
+          },
+          {
+            "id": "stem",
+            "text": "Are you pursuing a degree in STEM (Science, Technology, Engineering, Mathematics, Nursing, or Pre-Med)?",
+            "fail": "This scholarship is only for STEM students."
+          },
+          {
+            "id": "firstgen",
+            "text": "Do you have any siblings, parents, or direct relatives currently living in the United States?",
+            "fail": "This scholarship is for first-generation students with no family in the US.",
+            "failOn": "yes"
+          },
+          {
+            "id": "financial",
+            "text": "Is your family income below $50,000 per year, or are you Pell Grant eligible?",
+            "fail": "This scholarship is for students with demonstrated financial need."
+          },
+          {
+            "id": "gpa",
+            "text": "Is your cumulative GPA 2.5 or higher on a 4.0 scale?",
+            "fail": "A minimum 2.5 GPA is required."
+          }
+        ],
+        "pass": "You may be eligible! Please complete the application below.",
+        "fail_contact": "If you believe you qualify, please contact us."
+      },
       "form": {
         "fields": {
           "full_name": "Full Name",
@@ -91,30 +145,36 @@
           "country_of_birth": "Country of Birth",
           "heritage": "Burmese Heritage (e.g., parents born in Myanmar, family connection)",
           "university": "University or College Name",
-          "major": "Major / Field of Study",
+          "major": "STEM Major / Field of Study",
           "enrollment_status": "Enrollment Status",
           "enrollment_options": ["Admitted (not yet enrolled)", "Freshman", "Sophomore", "Junior", "Senior", "Graduate Student"],
           "gpa": "Current GPA (or most recent)",
+          "family_income": "Approximate Family Income (annual)",
+          "income_options": ["Under $20,000", "$20,000 - $35,000", "$35,000 - $50,000", "$50,000 - $75,000", "Prefer not to say"],
+          "pell_eligible": "Are you Pell Grant eligible?",
+          "pell_options": ["Yes", "No", "Don't know"],
+          "family_in_us": "Do you have any direct family members (parents, siblings) currently living in the US?",
+          "family_in_us_options": ["No — I have no direct family in the US", "Yes — I have family in the US"],
           "financial_need": "Describe your financial situation and why you need this scholarship (100–300 words)",
-          "essay": "Personal Essay: How will this scholarship help you achieve your goals? (500–800 words)",
+          "essay": "Describe a significant challenge you have overcome. How did it shape who you are and what you want to achieve? (500–800 words)",
           "recommender_1_name": "Recommender 1 — Name",
           "recommender_1_email": "Recommender 1 — Email",
           "recommender_2_name": "Recommender 2 — Name",
           "recommender_2_email": "Recommender 2 — Email",
           "how_heard": "How did you hear about this scholarship?",
           "how_heard_options": ["Community center or temple", "University financial aid office", "Friend or family", "Social media", "Other"],
-          "agreement": "I certify that all information provided is true and accurate to the best of my knowledge."
+          "agreement": "I certify that all information provided is true and accurate to the best of my knowledge. I understand that providing false information may result in disqualification."
         },
         "submit": "Submit Application"
       }
     },
     "support": {
       "heading": "Support the Trust",
-      "body": "Your generosity helps Burmese students access education in America. Every contribution makes a difference.",
+      "body": "Your generosity helps Burmese students access STEM education in America. Every contribution makes a difference.",
       "cards": [
         {
           "title": "Donate",
-          "text": "Make a tax-deductible contribution to fund scholarships for Burmese students.",
+          "text": "Make a tax-deductible contribution to fund scholarships for Burmese STEM students.",
           "button": "Donate Now"
         },
         {
@@ -130,7 +190,7 @@
       ],
       "stats": [
         { "value": "5", "label": "Scholarships Per Year" },
-        { "value": "$5K", "label": "Maximum Award" },
+        { "value": "Full", "label": "First Year Coverage" },
         { "value": "100%", "label": "Volunteer Run" }
       ]
     },
@@ -167,19 +227,19 @@
     "hero": {
       "title": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန်",
       "subtitle": "ထရတ်စတ်ပညာသင်ဆု",
-      "tagline": "အမေရိကန်၌ မြန်မာကျောင်းသားများ ထွန်းလင်းတောက်ပစေရန်",
+      "tagline": "အမေရိကန်၌ မြန်မာ STEM ကျောင်းသားများ ထွန်းလင်းတောက်ပစေရန်",
       "cta_primary": "ဆက်လက်ဖတ်ရှုရန်",
-      "cta_secondary": "လျှောက်ထားရန်"
+      "cta_secondary": "အရည်အချင်း စစ်ဆေးရန်"
     },
     "mission": {
       "heading": "ကျွန်ုပ်တို့၏ မစ်ရှင်",
-      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုသည် အမေရိကန်ပြည်ထောင်စု၌ အဆင့်မြင့်ပညာကို ဆက်လက်သင်ကြားလိုသော မြန်မာကျောင်းသားများကို ငွေကြေးဆိုင်ရာ ပံ့ပိုးမှုပေးပါသည်။ ထက်မြက်မှုသည် အနှံ့အပြားရှိသော်လည်း အခွင့်အရေးသည် မရှိနိုင်ဟု ကျွန်ုပ်တို့ ယုံကြည်ပါသည်။ ဤယုံကြည်မှုသည် ထိုကွာဟချက်ကို ပိတ်ပစ်ရန် ရှိနေပါသည် — တစ်ကြိမ်လျှင် ကျောင်းသားတစ်ဦးစီ။",
+      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုသည် အမေရိကန်ပြည်ထောင်စု၌ STEM ဘွဲ့များကို ဆက်လက်သင်ကြားလိုသော မြန်မာကျောင်းသားများကို ငွေကြေးဆိုင်ရာ ပံ့ပိုးမှုပေးပါသည်။ အမေရိကန်တွင် မိသားစုအထောက်အပံ့မရှိသော ကျောင်းသားများ — ကိုယ်တိုင်ဘဝအသစ်တည်ဆောက်နေသူများကို အာရုံစိုက်ပါသည်။",
       "quote": "ဓမ္မဒါနသည် ဒါနအလုံးစုံတို့၌ အထူးဆုံးဖြစ်သည်။",
       "quote_source": "— ဓမ္မပဒ ၃၅၄",
       "icons": [
-        { "label": "ပညာရေး", "text": "အမေရိကန်၌ ပညာရေးထူးချွန်မှုကို ပံ့ပိုးခြင်း" },
-        { "label": "ကရုဏာ", "text": "ဗုဒ္ဓဘာသာ ရက်ရောမှုတန်ဖိုးများအပေါ် အခြေခံခြင်း" },
-        { "label": "အသိုင်းအဝိုင်း", "text": "ယဉ်ကျေးမှုများကြား တံတားတည်ဆောက်ခြင်း" }
+        { "label": "STEM ပညာရေး", "text": "သိပ္ပံ၊ နည်းပညာ၊ အင်ဂျင်နီယာ၊ သင်္ချာ" },
+        { "label": "ပထမမျိုးဆက်", "text": "အမေရိကန်တွင် မိသားစုမရှိသော ကျောင်းသားများ" },
+        { "label": "ငွေကြေးလိုအပ်ချက်", "text": "တကယ်မတတ်နိုင်သူများအတွက်" }
       ]
     },
     "story": {
@@ -192,24 +252,37 @@
     },
     "scholarship": {
       "heading": "ပညာသင်ဆု",
-      "overview": "အမေရိကန်ကောလိပ်နှင့် တက္ကသိုလ်များတွင် တက်ရောက်နေသော မြန်မာကျောင်းသားများအား ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။",
+      "overview": "အမေရိကန်ကောလိပ်နှင့် တက္ကသိုလ်များတွင် STEM ဘွဲ့များကို ဆက်လက်သင်ကြားနေသော မြန်မာကျောင်းသားများအား ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။",
       "eligibility": {
         "title": "လျှောက်ထားနိုင်သူများ",
+        "subtitle": "အောက်ပါ အရည်အချင်း ငါးခုလုံး ပြည့်မီရပါမည် —",
         "items": [
-          "မြန်မာအမျိုးအနွယ် (မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ သို့မဟုတ် မြန်မာအမျိုးအနွယ်)",
-          "လက်ရှိ အမေရိကန်ကောလိပ် သို့မဟုတ် တက္ကသိုလ်တွင် တက်ရောက်နေသူ သို့မဟုတ် ဝင်ခွင့်ရရှိပြီးသူ",
-          "ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသူ",
-          "ကောင်းမွန်သော ပညာရေးအနေအထား (အနိမ့်ဆုံး GPA ၂.၅)",
-          "ဗုဒ္ဓဘာသာဝင် သို့မဟုတ် မြန်မာဗုဒ္ဓဘာသာ အသိုင်းအဝိုင်းနှင့် ဆက်စပ်မှုရှိသူ"
+          "မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ သို့မဟုတ် မိဘတစ်ဦးဦး မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ",
+          "STEM ဘွဲ့ (သိပ္ပံ၊ နည်းပညာ၊ အင်ဂျင်နီယာ၊ သင်္ချာ၊ သူနာပြု သို့မဟုတ် ဆေးပညာကြိုတင်လေ့လာမှု) ကို ဆက်လက်သင်ကြားနေသူ",
+          "အမေရိကန်တွင် ပထမမျိုးဆက် — အမေရိကန်တွင် မောင်နှမ၊ မိဘ သို့မဟုတ် တိုက်ရိုက်ဆွေမျိုးမရှိသူ",
+          "ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသူ — မိသားစုဝင်ငွေ တစ်နှစ်လျှင် ဒေါ်လာ ၅၀,၀၀၀ အောက် သို့မဟုတ် Pell Grant အရည်အချင်းပြည့်မီသူ",
+          "GPA အနိမ့်ဆုံး ၂.၅ (၄.၀ စနစ်ဖြင့်)"
+        ]
+      },
+      "rubric": {
+        "title": "ရွေးချယ်ပုံ",
+        "subtitle": "လျှောက်လွှာများကို အောက်ပါ စံနှုန်းလေးခုဖြင့် အမှတ်ပေးပါသည် —",
+        "items": [
+          { "category": "ငွေကြေးလိုအပ်ချက်", "weight": "၄၀%", "detail": "မိသားစုဝင်ငွေ၊ အိမ်ထောင်စုအရွယ်အစား၊ ဖြည့်ဆည်းပေးရန်လိုအပ်သော ငွေပမာဏ" },
+          { "category": "စရိုက်နှင့် ကြံ့ခိုင်မှု", "weight": "၃၀%", "detail": "စာစီစာကုံးအရည်အသွေး — အခက်အခဲကို ကျော်လွှားပုံ၊ ကိုယ့်ကိုယ်ကို သိမြင်မှု၊ ပန်းတိုင်များ" },
+          { "category": "ပညာရေးအနေအထား", "weight": "၁၅%", "detail": "GPA၊ STEM ဘာသာရပ်များ၊ ပညာရေးလမ်းကြောင်း" },
+          { "category": "ပထမမျိုးဆက် အခက်အခဲ", "weight": "၁၅%", "detail": "အမေရိကန်တွင် မိသားစုအထောက်အပံ့ မရှိခြင်း" }
         ]
       },
       "award": {
         "title": "ဆုကြေးအသေးစိတ်",
         "items": [
           "နှစ်စဉ် ပညာသင်ဆု ငါးဆု ချီးမြှင့်",
-          "ပမာဏ — တစ်ဦးလျှင် $၁,၀၀၀ မှ $၅,၀၀၀",
-          "ကာလ — ပညာသင်နှစ်တစ်နှစ် (သက်တမ်းတိုးနိုင်)",
-          "ဖုံးလွှမ်းမှု — ကျောင်းလခ၊ နေထိုင်စရိတ်၊ စာအုပ်စရိတ်"
+          "ပထမနှစ် — ကျောင်းလခ၊ နေထိုင်စရိတ်၊ စာအုပ်စရိတ်နှင့် သက်ဆိုင်ရာ ကုန်ကျစရိတ်အားလုံးကို အပြည့်အဝ ဖုံးလွှမ်းပေးပါသည်",
+          "နောက်နှစ်များ — ပညာရေးစွမ်းဆောင်ရည်ပေါ်မူတည်၍ လစဉ်နေထိုင်စရိတ် ထောက်ပံ့",
+          "ကာလ — အနှစ် ၄ အထိ (ဘွဲ့ကြို) သို့မဟုတ် အနှစ် ၂ အထိ (ဘွဲ့လွန်) သက်တမ်းတိုးနိုင်",
+          "ဆန္ဒအလျောက် ရပ်ဆိုင်းခွင့် — ဆုရရှိသူများသည် မည်သည့်အချိန်တွင်မဆို ဆက်လက်လက်ခံခြင်းမှ ရပ်ဆိုင်းနိုင်ပါသည်",
+          "အမေရိကန်တက္ကသိုလ်များနှင့် ကောလိပ်များတွင် ရရှိနိုင် — ဘွဲ့ကြိုနှင့် ဘွဲ့လွန်ပရိုဂရမ်များ နှစ်ခုလုံး"
         ]
       },
       "documents": {
@@ -218,26 +291,67 @@
           "ပြည့်စုံသော လျှောက်လွှာဖောင် (အောက်ပါအတိုင်း)",
           "မြန်မာအမျိုးအနွယ် သက်သေ (မွေးစာရင်း၊ နိုင်ငံကူးလက်မှတ် သို့မဟုတ် မိသားစုထုတ်ပြန်ချက်)",
           "တက္ကသိုလ် လက်ခံစာ သို့မဟုတ် လက်ရှိ တက်ရောက်နေကြောင်း အထောက်အထား",
-          "ကိုယ်ပိုင်စာစီစာကုံး (စကားလုံး ၅၀၀–၈၀၀) — ဤပညာသင်ဆုသည် သင်၏ပန်းတိုင်များကို အောင်မြင်ရန် မည်သို့ကူညီမည်နည်း?",
+          "ကိုယ်ပိုင်စာစီစာကုံး (စကားလုံး ၅၀၀–၈၀၀) — သင်ကျော်ဖြတ်ခဲ့သော အဓိကအခက်အခဲကို ဖော်ပြပြီး ၎င်းက သင်၏ပန်းတိုင်များကို မည်သို့ပုံဖော်ခဲ့သည်",
           "အကြံပြုစာ နှစ်စောင် (ပညာရေး သို့မဟုတ် အသိုင်းအဝိုင်း)"
         ]
+      },
+      "casebycase": {
+        "title": "တစ်ဦးချင်း အခြေအနေအလိုက် စဉ်းစားခြင်း",
+        "body": "ကျောင်းသားတိုင်း၏ အခြေအနေသည် ထူးခြားကြောင်း ကျွန်ုပ်တို့ နားလည်ပါသည်။ အထက်ပါ အရည်အချင်းများထဲမှ တစ်ခုခု သို့မဟုတ် တစ်ခုထက်ပို၍ မပြည့်မီသော်လည်း သင့်တွင် စိတ်ဝင်စားဖွယ် အကြောင်းပြချက်ရှိသည်ဟု ယုံကြည်ပါက လျှောက်ထားနိုင်ပါသည်။ စံအရည်အချင်းများနှင့် မကိုက်ညီသော လျှောက်လွှာများကို ရွေးချယ်ရေးကော်မတီ၏ ဆုံးဖြတ်ချက်ဖြင့် စစ်ဆေးပါမည်။ သင်၏ အခြေအနေကို ငွေကြေးလိုအပ်ချက် စာစီစာကုံးတွင် အသေးစိတ်ဖော်ပြပါ။"
       },
       "deadline": "လျှောက်လွှာ နောက်ဆုံးရက် — ဇွန်လ ၃၀ ရက်နေ့ နှစ်တိုင်း။ ဩဂုတ်လ ၁၅ ရက်နေ့တွင် ဆုကြေးကြေညာပါသည်။",
       "faq": {
         "title": "မေးလေ့ရှိသော မေးခွန်းများ",
         "items": [
-          { "q": "နှစ်စဉ် ကျောင်းသား ဘယ်နှစ်ယောက် ရွေးချယ်ခံရလဲ?", "a": "ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။" },
-          { "q": "ဘွဲ့ကြိုကျောင်းသားများ လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ အမေရိကန်တက္ကသိုလ်များတွင် တက်ရောက်နေသော ဘွဲ့ကြိုနှင့် ဘွဲ့လွန်ကျောင်းသားများ လျှောက်ထားနိုင်ပါသည်။" },
-          { "q": "ပညာသင်ဆုကို သက်တမ်းတိုးနိုင်ပါသလား?", "a": "ရပါသည်။ ကောင်းမွန်သော ပညာရေးအနေအထားကို ထိန်းသိမ်းထားပါက နှစ်တိုင်း ပြန်လည်လျှောက်ထားနိုင်ပါသည်။" },
-          { "q": "ဗုဒ္ဓဘာသာဝင်ဖြစ်ရန် လိုအပ်ပါသလား?", "a": "ကျွန်ုပ်တို့သည် နောက်ခံအမျိုးမျိုးရှိသော လျှောက်ထားသူများကို ကြိုဆိုပါသည်။ မြန်မာဗုဒ္ဓဘာသာ အသိုင်းအဝိုင်းနှင့် ဆက်စပ်မှုကို တန်ဖိုးထားပါသည် သို့သော် ဗုဒ္ဓဘာသာကိုင်းကျွန်းပြုသူဖြစ်ရန် မလိုအပ်ပါ။" },
-          { "q": "အဖြေကို ဘယ်တော့ကြားရမလဲ?", "a": "ရလဒ်မည်သို့ပင်ဖြစ်စေ လျှောက်ထားသူအားလုံးကို ဩဂုတ်လ ၁၅ ရက်နေ့တွင် အကြောင်းကြားပါမည်။" },
-          { "q": "တက္ကသိုလ်ဝင်ခွင့်ကို စောင့်ဆိုင်းနေဆဲဖြစ်ပါက လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ ဆိုင်းငံ့ထားသော ဝင်ခွင့်အကြောင်း မှတ်ချက်ဖြင့် သင်၏လျှောက်လွှာကို တင်သွင်းပါ။ ဆုကြေးမတိုင်မီ သင်၏လက်ခံစာကို တောင်းခံပါမည်။" }
+          { "q": "STEM ဘာသာရပ်ဖြစ်ရန် လိုအပ်ပါသလား?", "a": "ဟုတ်ပါသည်။ ဤပညာသင်ဆုသည် သိပ္ပံ၊ နည်းပညာ၊ အင်ဂျင်နီယာ၊ သင်္ချာ၊ သူနာပြု သို့မဟုတ် ဆေးပညာကြိုတင်လေ့လာမှု ဘွဲ့များကို ဆက်လက်သင်ကြားနေသော ကျောင်းသားများအတွက်သာ ဖြစ်ပါသည်။" },
+          { "q": "'အမေရိကန်တွင် ပထမမျိုးဆက်' ဆိုသည်မှာ အဘယ်နည်း?", "a": "အမေရိကန်တွင် မောင်နှမ၊ မိဘ သို့မဟုတ် တိုက်ရိုက်ဆွေမျိုး လက်ရှိနေထိုင်ခြင်း မရှိသူဟု ဆိုလိုပါသည်။ သင်သည် ဒီနိုင်ငံတွင် မိသားစုအထောက်အပံ့ကွန်ရက်မရှိဘဲ ဘဝကို တစ်ယောက်တည်း တည်ဆောက်နေသူ ဖြစ်ပါသည်။" },
+          { "q": "ငွေကြေးလိုအပ်ချက်ကို မည်သို့ အကဲဖြတ်ပါသလဲ?", "a": "ကျွန်ုပ်တို့သည် ယုံကြည်မှုအခြေခံ ချဉ်းကပ်နည်းကို အသုံးပြုပါသည်။ သင်၏ မိသားစုဝင်ငွေ အပိုင်းအခြားနှင့် FAFSA အနေအထားကို ပေးပါ။ အခွန်စာရွက် သို့မဟုတ် ဘဏ်ထုတ်ပြန်ချက်များ မလိုအပ်ပါ။" },
+          { "q": "ဘွဲ့လွန်ကျောင်းသားများ လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ STEM နယ်ပယ်တွင် ဘွဲ့ကြိုနှင့် ဘွဲ့လွန်ကျောင်းသားများ လျှောက်ထားနိုင်ပါသည်။" },
+          { "q": "ပညာသင်ဆုက ဘာတွေ ဖုံးလွှမ်းပါသလဲ?", "a": "ပထမနှစ်တွင် ကျောင်းလခ၊ နေထိုင်စရိတ်၊ စာအုပ်စရိတ်နှင့် သက်ဆိုင်ရာ ကုန်ကျစရိတ်အားလုံးကို အပြည့်အဝ ဖုံးလွှမ်းပေးပါသည်။ နောက်နှစ်များတွင် ပညာရေးစွမ်းဆောင်ရည်ပေါ်မူတည်၍ လစဉ်နေထိုင်စရိတ် ထောက်ပံ့ပါသည်။ ဆုရရှိသူများသည် မည်သည့်အချိန်တွင်မဆို ဆန္ဒအလျောက် ရပ်ဆိုင်းနိုင်ပါသည်။" },
+          { "q": "ဘွဲ့လွန်ကျောင်းသားများ လျှောက်ထားနိုင်ပါသလား?", "a": "ရပါသည်။ အမေရိကန်တက္ကသိုလ်များနှင့် ကောလိပ်များတွင် ဘွဲ့ကြိုနှင့် ဘွဲ့လွန် (မာစတာ) ပရိုဂရမ်များ နှစ်ခုလုံး ရရှိနိုင်ပါသည်။" },
+          { "q": "ပညာသင်ဆုကို သက်တမ်းတိုးနိုင်ပါသလား?", "a": "ရပါသည်။ GPA ၂.၅ ထိန်းသိမ်းပြီး STEM ပရိုဂရမ်တွင် ဆက်လက်တက်ရောက်ပါက ဘွဲ့ကြို အနှစ် ၄ သို့မဟုတ် ဘွဲ့လွန် အနှစ် ၂ အထိ ဆက်လက်ရရှိနိုင်ပါသည်။" },
+          { "q": "အရည်အချင်းအားလုံး မပြည့်မီပါက?", "a": "စံအရည်အချင်းများနှင့် မကိုက်ညီသော လျှောက်လွှာများကို ရွေးချယ်ရေးကော်မတီ၏ ဆုံးဖြတ်ချက်ဖြင့် တစ်ဦးချင်း အခြေအနေအလိုက် စစ်ဆေးပါသည်။ စိတ်ဝင်စားဖွယ် အကြောင်းပြချက်ရှိပါက လျှောက်ထားရန် အကြံပြုပါသည်။" },
+          { "q": "ကျောင်းသား ဘယ်နှစ်ယောက် ရွေးချယ်ခံရလဲ?", "a": "ပညာသင်နှစ်တိုင်း ပညာသင်ဆု ငါးဆု ချီးမြှင့်ပါသည်။" },
+          { "q": "အဖြေကို ဘယ်တော့ကြားရမလဲ?", "a": "ရလဒ်မည်သို့ပင်ဖြစ်စေ လျှောက်ထားသူအားလုံးကို ဩဂုတ်လ ၁၅ ရက်နေ့တွင် အကြောင်းကြားပါမည်။" }
         ]
       }
     },
     "apply": {
       "heading": "ယခုလျှောက်ထားပါ",
-      "body": "အက်ဂ်ဘတ်အောင်ကျိုင်းတန် ထရတ်စတ်ပညာသင်ဆုအတွက် လျှောက်ထားရန် အောက်ပါဖောင်ကို ဖြည့်ပါ။ အကွက်အားလုံး ဖြည့်ရန် လိုအပ်ပါသည်။",
+      "precheck": {
+        "title": "သင်၏ အရည်အချင်းကို စစ်ဆေးပါ",
+        "body": "လျှောက်လွှာမစတင်မီ အောက်ပါ မေးခွန်းငါးခုကို ဖြေဆိုပါ။",
+        "questions": [
+          {
+            "id": "nationality",
+            "text": "သင်သည် မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့ပါသလား သို့မဟုတ် သင်၏မိဘတစ်ဦးဦး မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့ပါသလား?",
+            "fail": "ဤပညာသင်ဆုသည် မြန်မာအမျိုးအနွယ် ကျောင်းသားများအတွက် ဖြစ်ပါသည်။"
+          },
+          {
+            "id": "stem",
+            "text": "သင်သည် STEM (သိပ္ပံ၊ နည်းပညာ၊ အင်ဂျင်နီယာ၊ သင်္ချာ၊ သူနာပြု သို့မဟုတ် ဆေးပညာကြိုတင်လေ့လာမှု) ဘွဲ့ကို ဆက်လက်သင်ကြားနေပါသလား?",
+            "fail": "ဤပညာသင်ဆုသည် STEM ကျောင်းသားများအတွက်သာ ဖြစ်ပါသည်။"
+          },
+          {
+            "id": "firstgen",
+            "text": "အမေရိကန်တွင် လက်ရှိနေထိုင်သော မောင်နှမ၊ မိဘ သို့မဟုတ် တိုက်ရိုက်ဆွေမျိုး ရှိပါသလား?",
+            "fail": "ဤပညာသင်ဆုသည် အမေရိကန်တွင် မိသားစုမရှိသော ပထမမျိုးဆက် ကျောင်းသားများအတွက် ဖြစ်ပါသည်။",
+            "failOn": "yes"
+          },
+          {
+            "id": "financial",
+            "text": "သင်၏ မိသားစုဝင်ငွေ တစ်နှစ်လျှင် ဒေါ်လာ ၅၀,၀၀၀ အောက်ဖြစ်ပါသလား သို့မဟုတ် Pell Grant အရည်အချင်းပြည့်မီပါသလား?",
+            "fail": "ဤပညာသင်ဆုသည် ငွေကြေးဆိုင်ရာ လိုအပ်ချက်ပြသသော ကျောင်းသားများအတွက် ဖြစ်ပါသည်။"
+          },
+          {
+            "id": "gpa",
+            "text": "သင်၏ စုစုပေါင်း GPA ၂.၅ သို့မဟုတ် ၎င်းထက်မြင့်ပါသလား (၄.၀ စနစ်ဖြင့်)?",
+            "fail": "အနိမ့်ဆုံး GPA ၂.၅ လိုအပ်ပါသည်။"
+          }
+        ],
+        "pass": "သင် အရည်အချင်းပြည့်မီနိုင်ပါသည်! အောက်ပါလျှောက်လွှာကို ဖြည့်ပါ။",
+        "fail_contact": "သင် အရည်အချင်းပြည့်မီသည်ဟု ယုံကြည်ပါက ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။"
+      },
       "form": {
         "fields": {
           "full_name": "အမည်အပြည့်အစုံ",
@@ -247,52 +361,58 @@
           "country_of_birth": "မွေးဖွားသော နိုင်ငံ",
           "heritage": "မြန်မာအမျိုးအနွယ် (ဥပမာ — မိဘများ မြန်မာနိုင်ငံတွင် မွေးဖွားခဲ့သူ၊ မိသားစုဆက်စပ်မှု)",
           "university": "တက္ကသိုလ် သို့မဟုတ် ကောလိပ် အမည်",
-          "major": "အဓိကဘာသာရပ် / လေ့လာမှုနယ်ပယ်",
+          "major": "STEM အဓိကဘာသာရပ် / လေ့လာမှုနယ်ပယ်",
           "enrollment_status": "တက်ရောက်နေသော အနေအထား",
           "enrollment_options": ["ဝင်ခွင့်ရရှိပြီး (မတက်ရောက်ရသေး)", "ပထမနှစ်", "ဒုတိယနှစ်", "တတိယနှစ်", "စတုတ္ထနှစ်", "ဘွဲ့လွန်ကျောင်းသား"],
           "gpa": "လက်ရှိ GPA (သို့မဟုတ် နောက်ဆုံးရရှိခဲ့သော)",
+          "family_income": "ခန့်မှန်း မိသားစုဝင်ငွေ (နှစ်စဉ်)",
+          "income_options": ["$၂၀,၀၀၀ အောက်", "$၂၀,၀၀၀ - $၃၅,၀၀၀", "$၃၅,၀၀၀ - $၅၀,၀၀၀", "$၅၀,၀၀၀ - $၇၅,၀၀၀", "မပြောလိုပါ"],
+          "pell_eligible": "Pell Grant အရည်အချင်းပြည့်မီပါသလား?",
+          "pell_options": ["ဟုတ်ကဲ့", "မဟုတ်ပါ", "မသိပါ"],
+          "family_in_us": "အမေရိကန်တွင် လက်ရှိနေထိုင်သော တိုက်ရိုက်မိသားစုဝင် (မိဘ၊ မောင်နှမ) ရှိပါသလား?",
+          "family_in_us_options": ["မရှိပါ — အမေရိကန်တွင် မိသားစုမရှိပါ", "ရှိပါသည် — အမေရိကန်တွင် မိသားစုရှိပါသည်"],
           "financial_need": "သင်၏ ငွေကြေးအခြေအနေနှင့် ဤပညာသင်ဆု ဘာကြောင့်လိုအပ်သည်ကို ဖော်ပြပါ (စကားလုံး ၁၀၀–၃၀၀)",
-          "essay": "ကိုယ်ပိုင်စာစီစာကုံး — ဤပညာသင်ဆုသည် သင်၏ပန်းတိုင်များကို အောင်မြင်ရန် မည်သို့ကူညီမည်နည်း? (စကားလုံး ၅၀၀–၈၀၀)",
+          "essay": "သင်ကျော်ဖြတ်ခဲ့သော အဓိကအခက်အခဲကို ဖော်ပြပါ။ ၎င်းက သင်ဘယ်သူဖြစ်လာသည်နှင့် ဘာကိုအောင်မြင်ချင်သည်ကို မည်သို့ပုံဖော်ခဲ့သနည်း? (စကားလုံး ၅၀၀–၈၀၀)",
           "recommender_1_name": "အကြံပြုသူ ၁ — အမည်",
           "recommender_1_email": "အကြံပြုသူ ၁ — အီးမေးလ်",
           "recommender_2_name": "အကြံပြုသူ ၂ — အမည်",
           "recommender_2_email": "အကြံပြုသူ ၂ — အီးမေးလ်",
           "how_heard": "ဤပညာသင်ဆုအကြောင်း ဘယ်ကကြားခဲ့ပါသလဲ?",
           "how_heard_options": ["အသိုင်းအဝိုင်းစင်တာ သို့မဟုတ် ဘုန်းကြီးကျောင်း", "တက္ကသိုလ် ငွေကြေးအကူအညီရုံး", "မိတ်ဆွေ သို့မဟုတ် မိသားစု", "လူမှုမီဒီယာ", "အခြား"],
-          "agreement": "ပေးထားသော အချက်အလက်အားလုံးသည် ကျွန်ုပ်၏ အသိပညာအရ မှန်ကန်ပြီး တိကျကြောင်း အတည်ပြုပါသည်။"
+          "agreement": "ပေးထားသော အချက်အလက်အားလုံးသည် ကျွန်ုပ်၏ အသိပညာအရ မှန်ကန်ပြီး တိကျကြောင်း အတည်ပြုပါသည်။ မမှန်သော အချက်အလက်ပေးပါက ပယ်ချခံရနိုင်ကြောင်း နားလည်ပါသည်။"
         },
         "submit": "လျှောက်လွှာ တင်သွင်းရန်"
       }
     },
     "support": {
       "heading": "ထရတ်စတ်ကို ပံ့ပိုးကူညီပါ",
-      "body": "သင်၏ ရက်ရောမှုသည် မြန်မာကျောင်းသားများ အမေရိကန်၌ ပညာသင်ကြားနိုင်ရန် ကူညီပါသည်။ လှူဒါန်းမှုတိုင်းသည် အရေးပါပါသည်။",
+      "body": "သင်၏ ရက်ရောမှုသည် မြန်မာကျောင်းသားများ အမေရိကန်၌ STEM ပညာသင်ကြားနိုင်ရန် ကူညီပါသည်။",
       "cards": [
         {
           "title": "လှူဒါန်းရန်",
-          "text": "မြန်မာကျောင်းသားများအတွက် ပညာသင်ဆုရန်ပုံငွေကို အခွန်လျှော့ချခွင့်ရ လှူဒါန်းမှုပြုလုပ်ပါ။",
+          "text": "မြန်မာ STEM ကျောင်းသားများအတွက် ပညာသင်ဆုရန်ပုံငွေကို အခွန်လျှော့ချခွင့်ရ လှူဒါန်းမှုပြုလုပ်ပါ။",
           "button": "ယခုလှူဒါန်းပါ"
         },
         {
           "title": "သတင်းပျံ့နှံ့စေရန်",
-          "text": "ဤပညာသင်ဆုကို အကျိုးခံစားနိုင်သော ကျောင်းသားများ၊ မိသားစုများနှင့် အသိုင်းအဝိုင်းအဖွဲ့အစည်းများထံ မျှဝေပါ။",
+          "text": "ဤပညာသင်ဆုကို အကျိုးခံစားနိုင်သော ကျောင်းသားများထံ မျှဝေပါ။",
           "button": "မျှဝေရန်"
         },
         {
           "title": "စေတနာ့ဝန်ထမ်း",
-          "text": "လျှောက်လွှာများ စစ်ဆေးရာတွင် ကူညီပါ၊ ကျောင်းသားများကို အကြံပေးပါ သို့မဟုတ် ထိတွေ့ဆက်ဆံရာတွင် ကူညီပါ။",
+          "text": "လျှောက်လွှာများ စစ်ဆေးရာတွင် ကူညီပါ သို့မဟုတ် ကျောင်းသားများကို အကြံပေးပါ။",
           "button": "ပါဝင်ပါ"
         }
       ],
       "stats": [
         { "value": "5", "label": "နှစ်စဉ် ပညာသင်ဆုများ" },
-        { "value": "$5K", "label": "အမြင့်ဆုံး ဆုကြေး" },
+        { "value": "Full", "label": "ပထမနှစ် အပြည့်အဝ ဖုံးလွှမ်း" },
         { "value": "100%", "label": "စေတနာ့ဝန်ထမ်း ဦးဆောင်" }
       ]
     },
     "contact": {
       "heading": "ဆက်သွယ်ရန်",
-      "body": "ပညာသင်ဆုအကြောင်း မေးခွန်းရှိပါသလား? ပါဝင်လိုပါသလား? သင်၏အကြောင်းကို ကြားချင်ပါသည်။",
+      "body": "ပညာသင်ဆုအကြောင်း မေးခွန်းရှိပါသလား? ပါဝင်လိုပါသလား?",
       "form": {
         "name": "သင်၏အမည်",
         "email": "သင်၏အီးမေးလ်",
