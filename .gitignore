@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER COMMIT
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*credentials*
+*api_key*
+*token*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node (if ever added)
+node_modules/
+
+# Temp
+*.tmp
+*.bak
